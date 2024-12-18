@@ -31,14 +31,16 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run build -- --base /MovieChallenge/
+        run: npm run build -- --base /MovieMadness/
 
-      - uses: actions/configure-pages@v4
+      # to publish the site ... uncomment
+      # - uses: actions/configure-pages@v4
 
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
 
-      - name: Deploy
-        id: deployment
-        uses: actions/deploy-pages@v4
+      # to publish the site ... uncomment
+      # - name: Deploy
+      #   id: deployment
+      #   uses: actions/deploy-pages@v4
