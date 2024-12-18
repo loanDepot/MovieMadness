@@ -1,0 +1,129 @@
+.text-blend {
+  background-color: #f07f09;
+  background-image: linear-gradient(45deg, #f07f09 10%, #9f2936 90%);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.bg-blend {
+  background-color: #f07f09;
+  background-image: linear-gradient(45deg, #f07f09 10%, #9f2936 90%);
+  background-size: 100%;
+  border-radius: 5em;
+}
+
+/*  This is a special slide that's themed like the Open GitOps website */
+.slidev-layout.open-gitops {
+  /* background: var(--slidev-theme-blue); */
+
+  h1 {
+    @apply text-5xl mt-0 mb-0;
+
+    &::before {
+      background: var(--slidev-theme-brightBlue);
+    }
+  }
+
+  h2 {
+    @apply text-5xl ma-0 pl-2;
+  }
+
+  h3 {
+    color: var(--slidev-theme-brightBlue);
+    font-weight: 500;
+    @apply ma-0 relative;
+    z-index: 2;
+
+    &::before { /* They put a number in their own ::before.content */
+      @apply absolute transform -translate-x-1/2 -translate-y-1/4em;
+      z-index: -1;
+      font-size: 2em;
+      font-weight: 1000;
+      color: var(--slidev-theme-gray70);
+    }
+  }
+
+  em {
+    color: var(--slidev-theme-blue);
+    font-style: normal;
+  }
+
+}
+
+
+/*
+:root {
+  --slidev-theme-background: var(--slidev-theme-gray70) !important;
+}
+*/
+.rightHeader {
+  display: inline-block;
+  color: black; /* var(--slidev-theme-section-headingColor); */
+  margin-left: -0.05em;
+  width: fit-content;
+  position: relative;
+  margin-bottom: 0;
+  padding: 0.25em;
+  position: relative;
+  z-index: 1;
+
+  &::before {
+    background: var(--slidev-theme-section-headingBg);
+    box-shadow: var(--slidev-theme-header-shadow);
+    content: " ";
+    display: block;
+    position: absolute;
+    width: calc(100%);
+    height: calc(100%);
+    margin-left: -0.25em;
+    margin-top: -0.25em;
+    z-index: -1;
+    transform: rotate(-1deg);
+  }
+}
+
+.slidev-layout.columns.grid-rows-2 .content {
+  @apply grid-rows-2
+}
+.slidev-layout.columns.grid-rows-3 .content {
+  @apply grid-rows-3
+}
+.slidev-layout.columns.grid-rows-4 .content {
+  @apply grid-rows-4
+}
+.slidev-layout.columns.grid-rows-5 .content {
+  @apply grid-rows-5
+}
+
+
+.slidev-layout.columns .content {
+  @apply grid grid-auto-flow-col gap-1em;
+  /* grid-template-rows: 3.5em repeat(4, minmax(1em, 1fr)); */
+
+  div {
+    * {
+        @apply: my-0;
+      }
+  }
+
+}
+
+.slidev-layout.columns p {
+  font-size: 1vi;
+}
+
+.slidev-layout.columns h1.blocking {
+  &::after {
+    @apply col-span-3;
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 90vw;
+    height: 100%;
+    margin-left: -5em;
+    margin-top: -1.25em;
+    border: 1px solid salmon;
+  }
+}

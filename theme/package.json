@@ -1,0 +1,44 @@
+{
+  "name": "slidev-theme-poshcode",
+  "version": "0.0.1",
+  "keywords": [
+    "slidev-theme",
+    "slidev",
+    "PoshCode"
+  ],
+  "engines": {
+    "node": ">=14.0.0",
+    "slidev": ">=0.47.0"
+  },
+  "scripts": {
+    "build": "slidev build example.md",
+    "dev": "NODE_ENV=development slidev example.md",
+    "export": "slidev export example.md",
+    "screenshot": "slidev export example.md --format png"
+  },
+  "dependencies": {
+    "@slidev/types": "^0.48.0-beta.5",
+    "@slidev/client": "^0.48.0-beta.5",
+    "codemirror-theme-vars": "^0.1.2",
+    "prism-theme-vars": "^0.2.4",
+    "theme-vitesse": "^0.7.5"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^0.48.0-beta.5",
+    "@types/node": "^18.13.0"
+  },
+  "slidev": {
+    "highlighter": "shiki",
+    "defaults": {
+      "fonts": {
+        "mono": "Cascadia",
+        "sans": "Ubuntu,Montserrat",
+        "local": "Lora"
+      }
+    }
+  },
+  "author": "Joel Bennett <Jaykul@HuddledMasses.org>",
+  "//": "Learn more: https://sli.dev/themes/write-a-theme.html and thanks to Elio Struyf <elio@struyfconsulting.be>",
+  "funding": "https://github.com/sponsors/estruyf",
+  "bugs": "https://github.com/estruyf/slidev-theme-the-unnamed/issues"
+}
