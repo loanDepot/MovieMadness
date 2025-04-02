@@ -109,6 +109,25 @@ filter New-MovieSlideShow {
             Supports passing a file containing imdb URLs, and as long as there's only one URL per line, this will ignore other data in the file ...
 
             Alternatively, supports passing text containing the the ttIDs from IMDb, or a list of movie names -- but in this case, you need to pass ONLY the names of the movies.
+        .EXAMPLE
+            New-MovieSlideShow -MovieList @(((sls "^url: " -path slides.md)).Line -replace "url: " | Sort-Object) -Verbose -Debug -Force
+
+            # Rebuild your existing slideshow in IMDB id order
+        .EXAMPLE
+            New-MovieSlideShow -MovieList @(
+                "John Wick"
+                "Bottle Rocket"
+                "Resevoir Dogs"
+                "Thank You for Smoking"
+                "Being John Malkovich"
+                "Get Out"
+                "Citizen Kane"
+                "Boyz in the hood"
+                "District 9"
+                "Deadpool"
+            ) -Verbose -Debug -Force
+
+            # Make a slideshow about a bunch of directorial debut movies
     #>
     [OutputType('schema.org/Movie')]
     [CmdletBinding(SupportsShouldProcess)]
@@ -200,22 +219,29 @@ filter Add-MovieSlide {
         [string]$SlidePath,
 
         # An array of image indexes for the movie stills
-        # By default, 0..9
+        # By default, 0..9 (you need to pass 10 images, we add the movie trailer)
         # -- if you want to skip the first image, use 1..10
         # -- if you want to skip the 8 and 9th image, use (0..6 + 9..11)
-        [int[]]$CustomImageSelection = 0..9
+        [int[]]$CustomImageSelection = 0..9,
+
+        # If set, does not add the trailer as an extra click
+        [switch]$NoTrailer
     )
     Write-Verbose "Generating slide for $($movie.name)"
+    $imageCount = 0
     Add-Content $SlidePath -Value @(
         "---"
         "name: $($movie.name)"
         "url: $($movie.url)"
         "layout: movie-stills"
         "cover: $($movie.image.url ?? $movie.image)"
+        if (!$NoTrailer) {
+            "trailer: $($movie.trailer.embedUrl -replace "/video/","/videoembed/")"
+        }
         "images:"
         foreach ($image in $movie.additionalImages[$CustomImageSelection]) {
-            "- url: " + $image.url
-            "  caption: " + ($image.caption.plainText ?? $image.caption)
+            '- url: "' + $image.url + '"'
+            '  caption: "' + ($image.caption.plainText ?? $image.caption) + '"'
         }
         "---"
         ""
@@ -231,5 +257,14 @@ filter Add-MovieSlide {
         ""
         "Rated $($movie.contentRating) and $($movie.aggregateRating.ratingValue) stars<br/>"
         "Play time: $($movie.duration -replace "PT" -replace "H",":" -replace "M")"
+        ""
+        "<!--"
+        $movie.description
+        ""
+        "### " + $movie.review.name
+        ""
+        $movie.review.reviewBody
+        "-->"
+        ""
     )
 }
