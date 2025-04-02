@@ -8,7 +8,7 @@ filter Find-Movie {
     [CmdletBinding()]
     param(
         # The name of the movie to search for
-        [Parameter(Mandatory, Position = 0, ValueFromRemainingArguments)]
+        [Parameter(Mandatory, Position = 0, ValueFromRemainingArguments, ValueFromPipeline)]
         [string[]]$Name
     )
     Write-Verbose "Searching for IMDB information for $Name"
@@ -21,7 +21,7 @@ filter Find-Movie {
         "${Name} (film)"
     )
 
-    while($queue) {
+    while ($queue) {
         $title, $queue = $queue
         Write-Debug "Searching $title"
         $json = Invoke-RestMethod "https://duckduckgo.com/${title}?ia=web&format=json" -Verbose:$false
@@ -31,15 +31,15 @@ filter Find-Movie {
             "https://www.imdb.com/title/$Id/"
             return
         } elseif ($json.meta.description -ne "testing") {
-            Write-Debug "No IMDb ID found for $title but we found some JSON"
+            Write-Warning "No IMDb ID found for $title but we found some JSON"
             $global:imdb_json = $json
             $oneMoreTry = (([uri]$imdb_json.RelatedTopics[0].FirstURL)).Segments[-1]
-            if (@($queue) -notlike "*$oneMoreTry*") {
+            if ($oneMoreTry -ne $title -and @($queue) -notlike "*$oneMoreTry*") {
                 Write-Debug "Adding $oneMoreTry to the queue"
                 $queue = @(
                     "${oneMoreTry}_(film)"
                     "${oneMoreTry}"
-                ) +  @($queue)
+                ) + @($queue)
             }
         }
     }
@@ -49,7 +49,7 @@ filter Find-Movie {
 }
 
 filter Get-Movie {
-<#
+    <#
 .DESCRIPTION
     Get information about a movie from IMDb
 .EXAMPLE
@@ -60,43 +60,43 @@ filter Get-Movie {
 }
 
 #>
-[CmdletBinding()]
-param(
-    # The IMDb URL of the movie
-    [Parameter(Mandatory, Position = 0, ValueFromPipeline)]
-    [uri]$Url,
+    [CmdletBinding()]
+    param(
+        # The IMDb URL of the movie
+        [Parameter(Mandatory, Position = 0, ValueFromPipeline)]
+        [uri]$Url,
 
-    [switch]$NoImages
-)
-process {
-    Write-Verbose "Getting movie information for $Url"
-    $movie = ConvertFrom-Html (Invoke-RestMethod $Url -Verbose:$false) -ov html
-    | Select-Xml "//script[@type = 'application/ld+json']" -ov data
-    | ConvertFrom-Json -Input { $_."#cdata-section" }
+        [switch]$NoImages
+    )
+    process {
+        Write-Verbose "Getting movie information for $Url"
+        $movie = ConvertFrom-Html (Invoke-RestMethod $Url -Verbose:$false) -ov html
+        | Select-Xml "//script[@type = 'application/ld+json']" -ov data
+        | ConvertFrom-Json -Input { $_."#cdata-section" }
 
-    if (!$movie) {
-        throw "No ld+json found at $url"
+        if (!$movie) {
+            throw "No ld+json found at $url"
+        }
+
+        $movie.PSTypeNames.Insert(0, "schema.org/Movie")
+
+        if (!$NoImages) {
+            Write-Verbose "Adding extra images from $($movie.name)"
+            $data = $html | Select-Xml "//script[@type = 'application/json']"
+            | ConvertFrom-Json -In { $_."#cdata-section" } -AsHashtable
+
+            $media = $data.props.pageProps.aboveTheFoldData.images.edges.node.id
+
+            $images = ConvertFrom-Html (Invoke-RestMethod "${url}mediaviewer/${media}/" -Verbose:$false) -ov mediaviewer
+            | Select-Xml "//script[@type = 'application/json']" -ov data
+            | ConvertFrom-Json -In { $_."#cdata-section" } -AsHashtable
+
+            $movie | Add-Member NoteProperty additionalImages $images.props.pageProps.initialQueryData.title.images.edges.node
+
+        }
+
+        $movie
     }
-
-    $movie.PSTypeNames.Insert(0, "schema.org/Movie")
-
-    if (!$NoImages) {
-        Write-Verbose "Adding extra images from $($movie.name)"
-        $data = $html | Select-Xml "//script[@type = 'application/json']"
-        | ConvertFrom-Json -In { $_."#cdata-section" } -AsHashtable
-
-        $media = $data.props.pageProps.aboveTheFoldData.images.edges.node.id
-
-        $images = ConvertFrom-Html (Invoke-RestMethod "${url}mediaviewer/${media}/" -Verbose:$false) -ov mediaviewer
-        | Select-Xml "//script[@type = 'application/json']" -ov data
-        | ConvertFrom-Json -In { $_."#cdata-section" } -AsHashtable
-
-        $movie | Add-Member NoteProperty additionalImages $images.props.pageProps.initialQueryData.title.images.edges.node
-
-    }
-
-    $movie
-}
 }
 
 filter New-MovieSlideShow {
@@ -132,35 +132,43 @@ filter New-MovieSlideShow {
     # Make sure we have an array of lines
     $MovieList = @($MovieList) -split "`n"
 
-    if (@($MovieList) -match "https://www.imdb.com/title/tt\d{7,8}/") {
-        $MovieList = $MovieList -match "https://www.imdb.com/title/tt\d{7,8}/" -replace ".*(https://www.imdb.com/title/tt\d{7,8}/).*", '$1'
-    } elseif (@($MovieList) -match "\btt\d{7,8}\b") {
-        $MovieList = $MovieList -match "\btt\d{7,8}\b" -replace ".*\b(tt\d{7,8})\b.*", 'https://www.imdb.com/title/$1/'
-    } else {
-        $MovieList = $MovieList | Find-Movie -ErrorAction Continue
-    }
+    $MovieList = @(
+        if ($SomeMovies = @($MovieList) -match "https://www.imdb.com/title/tt\d{7,8}/") {
+            @($SomeMovies) -replace ".*(https://www.imdb.com/title/tt\d{7,8}/).*", '$1'
+        }
+        if ($SomeMovies = @($MovieList) -notmatch "https://www.imdb.com/title/tt\d{7,8}/" -match "\btt\d{7,8}\b") {
+            Write-Verbose "Converting imdb title ids to URLs $($SomeMovies -join ", ")"
+            @($SomeMovies) -replace ".*\b(tt\d{7,8})\b.*", 'https://www.imdb.com/title/$1/'
+        }
+
+        if ($SomeMovies = @($MovieList) -notmatch "\btt\d{7,8}\b") {
+            Write-Verbose "Some of those are not already imdb title ids: $($SomeMovies -join ", ")"
+            @($SomeMovies) | Find-Movie -ErrorAction Continue
+        }
+    )
 
     # Overwrite the slide file
     New-Item $SlidePath -ItemType File -Force:$Force -ErrorAction Stop -Value (@(
-        "---"
-        "title: DevOps Movie Madness"
-        "info: Everyone picks a movie, we narrow them down, watch them, then vote for a winner, then reveal who picked what!"
-        "keywords: Movies"
-        "drawings:"
-        "    persist: false"
-        "mdc: true"
-        "theme: ./theme"
-        "defaults:"
-        "    layout: movie-stills"
-        "layout: cover"
-        "hideInToc: true"
-        "background: images/B08599196B1133A13BF7F4A41EAE96841A9A6EBF79CB7121ACB8A3961469DFF2.jpg"
-        "---"
-        ""
-        "# DevOps Movie Madness"
-        ""
-    ) -join [Environment]::NewLine)
+            "---"
+            "title: DevOps Movie Madness"
+            "info: Everyone picks a movie, we narrow them down, watch them, then vote for a winner, then reveal who picked what!"
+            "keywords: Movies"
+            "drawings:"
+            "    persist: false"
+            "mdc: true"
+            "theme: ./theme"
+            "defaults:"
+            "    layout: movie-stills"
+            "layout: cover"
+            "hideInToc: true"
+            "background: images/B08599196B1133A13BF7F4A41EAE96841A9A6EBF79CB7121ACB8A3961469DFF2.jpg"
+            "---"
+            ""
+            "# DevOps Movie Madness"
+            ""
+        ) -join [Environment]::NewLine)
 
+    Write-Verbose "MovieList: $($MovieList -join "`n")"
     $MovieList | Get-Movie | Add-MovieSlide -SlidePath $SlidePath
 }
 
