@@ -24,14 +24,17 @@ const props = defineProps<{
     </div>
     <div id="gallery">
       <div id="poster">
-        <img :src="cover"/>
-        <div><slot/></div>
+        <img :src="cover" />
+        <div v-click>
+          <slot />
+        </div>
       </div>
-      <div v-for="(image, index) in props.images"><img :src="image.url"><a :href="'#lightbox-'  + $page + '-' + index ">{{image.caption}}</a></div>
+      <div v-for="(image, index) in props.images"><img :src="image.url"><a :href="'#lightbox-' + $page + '-' + index">{{
+        image.caption }}</a></div>
     </div>
     <div v-for="(image, index) in props.images" class="lightbox" :id="'lightbox-' + $page + '-' + index">
       <div class="image"><img :src="image.url">
-        <div class="title">{{image.caption}}</div><a class="close" href="#gallery"></a>
+        <div class="title">{{ image.caption }}</div><a class="close" href="#gallery"></a>
       </div>
     </div>
   </theme-layout>
@@ -43,14 +46,21 @@ const props = defineProps<{
     opacity: 1;
     visibility: visible;
   }
+
   to {
     opacity: 0;
     visibility: hidden;
   }
 }
+
 @keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity: .9;}
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: .9;
+  }
 }
 
 #name {
@@ -61,25 +71,42 @@ const props = defineProps<{
   animation-delay: 1s;
   animation-duration: 2s;
   animation-fill-mode: forwards;
+
   &::before {
-    background: none ;
+    background: none;
   }
+
   h1 {
     font-size: 3em;
     color: #fff;
     text-shadow: 0 0 10px #000;
+
     &::before {
       background: var(--slidev-theme-default-headingBg);
     }
   }
 }
 
-#poster > div {
+.slidev-vclick-target {
+  transition: opacity 100ms ease;
+  visibility: visible;
+}
+
+.slidev-vclick-hidden {
   opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+
+#poster>div {
+  /*
+  opacity: 0;
+  mix-blend-mode: screen;
   animation-name: fadeIn;
   animation-delay: 3s;
   animation-duration: 3s;
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards; */
   font: .75em sans-serif;
   position: absolute;
   background-color: #ffffff;
@@ -88,7 +115,6 @@ const props = defineProps<{
   height: 100%;
   width: 100%;
   padding: 1em;
-  mix-blend-mode: screen;
 }
 
 .bg-main #name {
