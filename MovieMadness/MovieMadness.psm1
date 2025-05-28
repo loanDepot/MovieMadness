@@ -141,6 +141,9 @@ filter New-MovieSlideShow {
         # The path to the slides.md file (defaults to "slides.md" in the current directory)
         [string]$SlidePath = "slides.md",
 
+        # If set, randomizes the order of the MovieList
+        [switch]$RandomOrder,
+
         # Overwrite the SlidePath if it exists
         [switch]$Force
     )
@@ -165,6 +168,11 @@ filter New-MovieSlideShow {
             @($SomeMovies) | Find-Movie -ErrorAction Continue
         }
     )
+
+    if ($RandomOrder) {
+        Write-Verbose "Randomizing the order of the movies"
+        $MovieList = $MovieList | Get-Random -Count $MovieList.Count
+    }
 
     # Overwrite the slide file
     New-Item $SlidePath -ItemType File -Force:$Force -ErrorAction Stop -Value (@(
@@ -228,7 +236,7 @@ filter Add-MovieSlide {
         [switch]$NoTrailer
     )
     Write-Verbose "Generating slide for $($movie.name)"
-    $imageCount = 0
+
     Add-Content $SlidePath -Value @(
         "---"
         "name: `"$($movie.name)`""
