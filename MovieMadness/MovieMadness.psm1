@@ -249,7 +249,7 @@ filter Add-MovieSlide {
         "images:"
         foreach ($image in $movie.additionalImages[$CustomImageSelection]) {
             '- url: "' + $image.url + '"'
-            '  caption: "' + ($image.caption.plainText ?? $image.caption) + '"'
+            '  caption: "' + (($image.caption.plainText ?? $image.caption) -replace '"', '&quot;') + '"'
         }
         "---"
         ""
