@@ -20,13 +20,13 @@ const props = defineProps<{
 
 <template>
   <theme-layout class="cover heroGrid">
-    <div v-click.hide id="name" class="content h-full place-content-center z2">
+    <div v-click.hide="['1','3']" id="name" class="content h-full place-content-center z2">
       <h1>{{ name }}</h1>
     </div>
     <div id="gallery">
       <div id="poster">
         <img :src="cover" />
-        <div v-after>
+        <div v-click="['1','3']">
           <slot />
         </div>
       </div>
@@ -154,6 +154,11 @@ const props = defineProps<{
     &:nth-child(4) {
       grid-column: span 1;
       grid-row: span 2;
+      img {
+        transform: rotateZ(25deg) scale(1.5) translateX(-20%) translateY(20%);
+        max-width: 200%;
+        width: auto
+      }
     }
 
     &>a {
