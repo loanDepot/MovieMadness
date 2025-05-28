@@ -231,7 +231,7 @@ filter Add-MovieSlide {
     $imageCount = 0
     Add-Content $SlidePath -Value @(
         "---"
-        "name: $($movie.name)"
+        "name: `"$($movie.name)`""
         "url: $($movie.url)"
         "layout: movie-stills"
         "cover: $($movie.image.url ?? $movie.image)"
