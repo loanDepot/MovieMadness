@@ -21,3 +21,29 @@ Before starting the slide show the first time you need to `install` or `update` 
 - `bun run dev`
 
 On Windows, this will not only start slidev, it will also open a browser window to the slide show.
+
+
+### Example:
+
+For this month, we had a list of movies:
+
+```powershell
+New-MovieSlideShow -Force -RandomOrder -MovieList ($Movies ??= @"
+Pokemon Detective Pikachu
+WarGames
+Dugeons & Dragons: Honor Among Thieves
+Wreck-it Ralph
+Warcraft
+Sonic the hedgehog
+Scott Pilgrim
+The Super Mario Brothers Movie
+Werewolves within
+Last Starfighter
+"@ -split "`n" | Find-Movie)
+```
+
+This produced one error (for some reason it could not find the D&D movie), so I looked that up and added it by hand:
+
+```powershell
+Add-MovieSlide -Movie (Get-Movie https://www.imdb.com/title/tt2906216/) -SlidePath .\slides.md
+```
