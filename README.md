@@ -9,12 +9,15 @@ This is a Slidev theme, and a slide generator PowerShell module to make a quick 
 
 ### Usage
 
-Clone the repo, and then `Import-Module ./MovieMadness/MovieMadness.psm1`
+The most reliable thing is to use `New-MovieSlideShow` with a list of IMDb title URLs (the ones that end in a "tt" number, like https://www.imdb.com/title/tt0107290/ for Jurassic Park).  However, there _is_ a `Find-Movie` function internally which will use DuckDuckGo to determine the IMDb URL given a movie title. Most of the time it works, but sometimes you need to add the year of release like "Planet of the Apes (1968)" or "Doctor Strange (2016 film)" in order to find a movie.
 
-The most reliable thing is to call `New-MovieSlideShow` with a list of IMDb title URLs (the ones that end in a "tt" number, like https://www.imdb.com/title/tt0107290/ for Jurassic Park).  However, there _is_ a `Find-Movie` function which can use DuckDuckGo to determine the IMDb URL for a movie title, which means you _can_ just pass a list of movie names. For my current movie challenge, it found every movie, even with a typo or two.
+1. Open a terminal in the repository root
+2. `Import-Module ./MovieMadness/MovieMadness.psm1`
+3. `New-MovieSlideShow -Movies $Movies -OutputPath slides.md -Force`
 
-To start the slide show (you can use `npm`, but I use `bun` instead):
+Before starting the slide show the first time you need to `install` or `update` the dependencies. You can use `npm`, but I use `bun` instead:
 
-- `bun install`
+- `bun install` (or `bun update`)
 - `bun run dev`
-- visit http://localhost:3030
+
+On Windows, this will not only start slidev, it will also open a browser window to the slide show.
