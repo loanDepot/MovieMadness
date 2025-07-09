@@ -10,663 +10,568 @@ defaults:
     layout: movie-stills
 layout: cover
 hideInToc: true
-background: images/E2984F049253590FFACD39F2C701E67920AB36C97BEF97AFD491B673980B991A.jpg
+background: images/B08599196B1133A13BF7F4A41EAE96841A9A6EBF79CB7121ACB8A3961469DFF2.jpg
 ---
 
 # DevOps Movie Madness
 ---
-name: "Source Code"
-url: https://www.imdb.com/title/tt0945513/
+name: "Warcraft"
+url: https://www.imdb.com/title/tt0803096/
 layout: movie-stills
-cover: https://m.media-amazon.com/images/M/MV5BMTY0MTc3MzMzNV5BMl5BanBnXkFtZTcwNDE4MjE0NA@@._V1_.jpg
-trailer: https://www.imdb.com/videoembed/vi3948911129/
+cover: https://m.media-amazon.com/images/M/MV5BMjIwNTM0Mzc5MV5BMl5BanBnXkFtZTgwMDk5NDU1ODE@._V1_.jpg
+trailer: https://www.imdb.com/videoembed/vi4072453145/
 images:
-- url: "https://m.media-amazon.com/images/M/MV5BMTQyMDU0ODUzMV5BMl5BanBnXkFtZTcwOTQ3MjA3NA@@._V1_.jpg"
-  caption: "Jake Gyllenhaal in Source Code (2011)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTQ4ODY3OTM4OV5BMl5BanBnXkFtZTcwNjU3MjA3NA@@._V1_.jpg"
-  caption: "Jake Gyllenhaal in Source Code (2011)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTcyNDc2NjIzM15BMl5BanBnXkFtZTcwNzU3MjA3NA@@._V1_.jpg"
-  caption: "Jake Gyllenhaal and Duncan Jones in Source Code (2011)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTc3NzI3MTg0NF5BMl5BanBnXkFtZTcwMDY3MjA3NA@@._V1_.jpg"
-  caption: "Jake Gyllenhaal in Source Code (2011)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTUwMDA3NjcyMV5BMl5BanBnXkFtZTcwNjQ3MjA3NA@@._V1_.jpg"
-  caption: "Jake Gyllenhaal in Source Code (2011)"
-- url: "https://m.media-amazon.com/images/M/MV5BMjI2NzAyNjI5MF5BMl5BanBnXkFtZTcwNzQ3MjA3NA@@._V1_.jpg"
-  caption: "Jake Gyllenhaal in Source Code (2011)"
-- url: "https://m.media-amazon.com/images/M/MV5BNDQzNDE0MTUyMF5BMl5BanBnXkFtZTcwMTU3MjA3NA@@._V1_.jpg"
-  caption: "Jake Gyllenhaal in Source Code (2011)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTQwNTEzMjEzOF5BMl5BanBnXkFtZTcwMjU3MjA3NA@@._V1_.jpg"
-  caption: "Jake Gyllenhaal in Source Code (2011)"
-- url: "https://m.media-amazon.com/images/M/MV5BMjA2ODYyMzc5M15BMl5BanBnXkFtZTcwMzU3MjA3NA@@._V1_.jpg"
-  caption: "Michelle Monaghan in Source Code (2011)"
-- url: "https://m.media-amazon.com/images/M/MV5BMjExOTk2NjY2MV5BMl5BanBnXkFtZTcwNDU3MjA3NA@@._V1_.jpg"
-  caption: "Jake Gyllenhaal in Source Code (2011)"
+- url: "https://m.media-amazon.com/images/M/MV5BMjIxNjQ4NTQ3OV5BMl5BanBnXkFtZTgwNTI5NDEyNzE@._V1_.jpg"
+  caption: "Robert Kazinsky in Warcraft (2016)"
+- url: "https://m.media-amazon.com/images/M/MV5BMTQ1NjEwNTY2Nl5BMl5BanBnXkFtZTgwNjI5NDEyNzE@._V1_.jpg"
+  caption: "Warcraft (2016)"
+- url: "https://m.media-amazon.com/images/M/MV5BOTcxNTEwNDQ2Ml5BMl5BanBnXkFtZTgwNzI5NDEyNzE@._V1_.jpg"
+  caption: "Dominic Cooper in Warcraft (2016)"
+- url: "https://m.media-amazon.com/images/M/MV5BMjM4ODQ4Mzg0MV5BMl5BanBnXkFtZTgwODI5NDEyNzE@._V1_.jpg"
+  caption: "Toby Kebbell in Warcraft (2016)"
+- url: "https://m.media-amazon.com/images/M/MV5BMTQ5NTkwOTU3OV5BMl5BanBnXkFtZTgwOTI5NDEyNzE@._V1_.jpg"
+  caption: "Travis Fimmel in Warcraft (2016)"
+- url: "https://m.media-amazon.com/images/M/MV5BMjE2MDExODAyN15BMl5BanBnXkFtZTgwMDM5NDEyNzE@._V1_.jpg"
+  caption: "Travis Fimmel in Warcraft (2016)"
+- url: "https://m.media-amazon.com/images/M/MV5BMTAyMjQ0MDMwNDheQTJeQWpwZ15BbWU4MDMyOTQxMjcx._V1_.jpg"
+  caption: "One Take Charlie in Warcraft (2016)"
+- url: "https://m.media-amazon.com/images/M/MV5BMjA5MTMyMDU0M15BMl5BanBnXkFtZTgwNDI5NDEyNzE@._V1_.jpg"
+  caption: "Paula Patton in Warcraft (2016)"
+- url: "https://m.media-amazon.com/images/M/MV5BMTgzNzk4OTk1OF5BMl5BanBnXkFtZTgwNjg0MzMyNjE@._V1_.jpg"
+  caption: "Travis Fimmel and Toby Kebbell in Warcraft (2016)"
+- url: "https://m.media-amazon.com/images/M/MV5BMTNhOTQ2OWQtN2Q5My00ZmU2LWE5N2MtNWI1MmYyMjkwZDc2XkEyXkFqcGc@._V1_.jpg"
+  caption: "Jamie Lee Curtis and Ruby Guest at an event for Warcraft (2016)"
 ---
 
-### <a href='https://www.imdb.com/title/tt0945513/'>Source Code</a>
+### <a href='https://www.imdb.com/title/tt0803096/'>Warcraft (2016)</a>
 
 #### Starring
 
-- Jake Gyllenhaal
-- Michelle Monaghan
-- Vera Farmiga
+- Travis Fimmel
+- Paula Patton
+- Ben Foster
 
 ##### Directed by
 
 - Duncan Jones
 
-2011 🎬 PG-13 ⭐ 7.5<br/>
-Play time: 1:33<br/>
-(Peacock)
-<!--
-A soldier wakes up in someone else&apos;s body and discovers he&apos;s part of an experimental government program to find the bomber of a commuter train within 8 minutes.
-
-### Don&apos;t think about the story too much or holes will begin to appear
-
-Source Code is a fun movie - think Quantum Leap meets Groundhog Day. However, don&apos;t think about the story too much or holes will begin to appear. The best thing you can do is turn off your brain, appreciate the solid performances by Jake Gyllenhaal and Vera Farmiga and enjoy the ride.
--->
-
----
-name: "About Time"
-url: https://www.imdb.com/title/tt2194499/
-layout: movie-stills
-cover: https://m.media-amazon.com/images/M/MV5BMTA1ODUzMDA3NzFeQTJeQWpwZ15BbWU3MDgxMTYxNTk@._V1_.jpg
-trailer: https://www.imdb.com/videoembed/vi802400281/
-images:
-- url: "https://m.media-amazon.com/images/M/MV5BMjAxMDg1OTY2M15BMl5BanBnXkFtZTgwOTk4MzYzMDE@._V1_.jpg"
-  caption: "Rachel McAdams in About Time (2013)"
-- url: "https://m.media-amazon.com/images/M/MV5BMjMxNzg2MDMzNl5BMl5BanBnXkFtZTgwMTA5MzYzMDE@._V1_.jpg"
-  caption: "Bill Nighy in About Time (2013)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTY2OTg4NTc5Ml5BMl5BanBnXkFtZTgwMjA5MzYzMDE@._V1_.jpg"
-  caption: "Rachel McAdams and Domhnall Gleeson in About Time (2013)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTQ4NjIyNjYwNV5BMl5BanBnXkFtZTgwMzA5MzYzMDE@._V1_.jpg"
-  caption: "Rachel McAdams and Domhnall Gleeson in About Time (2013)"
-- url: "https://m.media-amazon.com/images/M/MV5BNTU0Njk3NzUzMl5BMl5BanBnXkFtZTgwNDA5MzYzMDE@._V1_.jpg"
-  caption: "Bill Nighy and Domhnall Gleeson in About Time (2013)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTc0NzA1NDU2NF5BMl5BanBnXkFtZTgwMTExNDYzMDE@._V1_.jpg"
-  caption: "Tom Hollander in About Time (2013)"
-- url: "https://m.media-amazon.com/images/M/MV5BNzYwMzYxNDczN15BMl5BanBnXkFtZTgwMjExNDYzMDE@._V1_.jpg"
-  caption: "Bill Nighy and Domhnall Gleeson in About Time (2013)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTQzNTA1MTEwNl5BMl5BanBnXkFtZTgwMzExNDYzMDE@._V1_.jpg"
-  caption: "Domhnall Gleeson in About Time (2013)"
-- url: "https://m.media-amazon.com/images/M/MV5BMjI4Njc5ODk4NV5BMl5BanBnXkFtZTgwNDExNDYzMDE@._V1_.jpg"
-  caption: "Domhnall Gleeson in About Time (2013)"
-- url: "https://m.media-amazon.com/images/M/MV5BMjI5ODc4NTU5MF5BMl5BanBnXkFtZTgwODg5NDYzMDE@._V1_.jpg"
-  caption: "Bill Nighy and Domhnall Gleeson in About Time (2013)"
----
-
-### <a href='https://www.imdb.com/title/tt2194499/'>About Time</a>
-
-#### Starring
-
-- Domhnall Gleeson
-- Rachel McAdams
-- Bill Nighy
-
-##### Directed by
-
-- Richard Curtis
-
-2013 🎬 R ⭐ 7.8<br/>
+Rated PG-13 and 6.7 stars<br/>
 Play time: 2:3
 
-
 <!--
-At the age of 21, Tim discovers he can travel in time and change what happens and has happened in his own life. His decision to make his world a better place by getting a girlfriend turns out not to be as easy as you might think.
+As an Orc horde invades the planet Azeroth using a magic portal, a few human heroes and dissenting Orcs must attempt to stop the true evil behind this war.
 
-### Charming.
+### Highly Entertaining Fantasy Film
 
-Really surprised by this one;was expecting the run of the mill rom-com, but it is so much more than that; it&apos;s about family and the smiles and cries of life. The whole film was filled with charm, wit and had its fair share of heartfelt moments. Time travel is a subject that has been visited many times in the film industry, but this had its own unique touch to it.
+When the world of the Orcs Draenor is being destroyed by the evil fel magic that uses life-force, the powerful warlock Gul&apos;dan creates a portal to the world of Azeroth and forms the Horde with members of the Orc clans. He also captures many prisoners to keep the portal. The king of Azeroth Llane Wrynn (Dominic Cooper) and his brother-in-law Anduin Lothar (Travis Fimmel) are informed by the apprentice of magician Khadgar (Ben Schnetzer) that he has found fel magic in dead bodies and the king decides to summon the Guardian of Tirisfal Medivh (Ben Foster) to protect his kingdom. Lothar and Khadgar head Kharazhan to meet Medivh and a shadow points a book to Khagdar and he takes it and hides. Anduin, Khadgar and Medivh and a group of soldiers are attacked by Orcs and they capture the slave Garona (Paula Patton), who is released by King Llane, and she shows the location of the portal. Garona is contacted by the Orc chief of a clan Durotan that wants to meet King Llane to stop the fel magic. Meanwhile Khadgar learns that the gate was opened with the help of someone in Azeroth. Shall King Lllane trust on Garona and Durotan? Whi might be the traitor?
 
-The film flows really nicely, it oozes class at some points. And the mere thought of having the ability to travel back in time sends your mind into a whirlwind of what-ifs? The acting is superb by all, but Bill Nighy was my favourite as Tim&apos;s Dad. When on screen with Domhnall Gleeson (Tim), the connection is very convincing and it was those scenes that i enjoyed the most.
+&quot;Warcraft&quot; is a highly entertaining fantasy film with an abrupt beginning without development of the situation and characters. Most of the characters are unpleasant and non-charismatic. Maybe the fans of the video game have a big picture of Draenor and Azeroth. But the special effects are top-notch and the story is not bad. My vote is seven.
 
-A very good film and worthy of a viewing by any standards
-
-7.25/10
+Title (Brazil): &quot;Warcraft: O Primeiro Encontro de Dois Mundos&quot; (&quot;Warcraft: The First Encounter of Two Worlds&quot;)
 -->
 
 ---
-name: "Avengers: Endgame"
-url: https://www.imdb.com/title/tt4154796/
+name: "Werewolves Within"
+url: https://www.imdb.com/title/tt9288692/
 layout: movie-stills
-cover: https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_.jpg
-trailer: https://www.imdb.com/videoembed/vi2163260441/
+cover: https://m.media-amazon.com/images/M/MV5BNGRkN2M1M2UtYTI4OC00NWNmLTlkMWEtNDM2OTQ2OGI0YjUwXkEyXkFqcGc@._V1_.jpg
+trailer: https://www.imdb.com/videoembed/vi3895509017/
 images:
-- url: "https://m.media-amazon.com/images/M/MV5BZTNiNDMyNjQtMjU4Yy00OTBkLWJmMTMtMzY0ZjE0OGI4MWMzXkEyXkFqcGc@._V1_.jpg"
-  caption: "Linda Cardellini, Jeremy Renner, Ava Russo, Ben Sakamoto, and Cade Woodward in Avengers: Endgame (2019)"
-- url: "https://m.media-amazon.com/images/M/MV5BOWJiMTRlNjAtMjYyMS00YTI3LWE4NmUtMzkxYmNjY2JiODhkXkEyXkFqcGc@._V1_.jpg"
-  caption: "Gwyneth Paltrow, Brie Larson, Elizabeth Olsen, Zoe Saldaña, Evangeline Lilly, Danai Gurira, Tessa Thompson, Karen Gillan, Pom Klementieff, and Letitia Wright in Avengers: Endgame (2019)"
-- url: "https://m.media-amazon.com/images/M/MV5BNmU0NTcwNGEtYmI4YS00Mzc1LTljMzEtOWI5ZDM1YmZmNzcxXkEyXkFqcGc@._V1_.jpg"
-  caption: "Robert Downey Jr. in Avengers: Endgame (2019)"
-- url: "https://m.media-amazon.com/images/M/MV5BMWIyZDljYWMtZGZkNS00YWE0LTkxOWYtM2I1NzJhYmRjMDM3XkEyXkFqcGc@._V1_.jpg"
-  caption: "Don Cheadle, Robert Downey Jr., Gwyneth Paltrow, Vin Diesel, Taika Waititi, Bradley Cooper, Chris Evans, Sean Gunn, Elizabeth Olsen, Chris Pratt, Paul Rudd, Mark Ruffalo, Benedict Wong, Terry Notary, Maurice P. Kerry, Anthony Mackie, Chris Hemsworth, Dave Bautista, Benedict Cumberbatch, Evangeline Lilly, Chadwick Boseman, Sebastian Stan, Danai Gurira, Tessa Thompson, Pom Klementieff, Letitia Wright, Tom Holland, Eric Word, Floyd Anthony Johns Jr., Marie Mouroum, Winston Duke, Kris Taylor, Alexa Medina, Roe Dunkley, and Eric Wallace in Avengers: Endgame (2019)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTZiZDZhNTUtMTQ1Zi00YTI4LThkMDUtYmY1MWI1OGI4YmJiXkEyXkFqcGc@._V1_.jpg"
-  caption: "Josh Brolin in Avengers: Endgame (2019)"
-- url: "https://m.media-amazon.com/images/M/MV5BMGU1YmYxYWMtMDYyNy00Zjk1LThlOTItOTllMTk3MGU5ZjEzXkEyXkFqcGc@._V1_.jpg"
-  caption: "Gwyneth Paltrow, Brie Larson, Elizabeth Olsen, Tessa Thompson, Pom Klementieff, and Letitia Wright in Avengers: Endgame (2019)"
-- url: "https://m.media-amazon.com/images/M/MV5BODE5YWQ1NTgtMjA5ZS00OGNjLWFmNTctZjM4YmYzNjBjNWVkXkEyXkFqcGc@._V1_.jpg"
-  caption: "Robert Downey Jr., Josh Brolin, Chris Evans, and Chris Hemsworth in Avengers: Endgame (2019)"
-- url: "https://m.media-amazon.com/images/M/MV5BZTA3NWZmYTktNThiZi00YzE4LWIwMjQtMjRiMDMxOGZmZjQwXkEyXkFqcGc@._V1_.jpg"
-  caption: "Robert Downey Jr. in Avengers: Endgame (2019)"
-- url: "https://m.media-amazon.com/images/M/MV5BN2RmOWVlNjAtZmI3YS00OTkxLWE2MGItYWQ1MTUyYmU0YTU3XkEyXkFqcGc@._V1_.jpg"
-  caption: "Don Cheadle, Robert Downey Jr., Bradley Cooper, Chris Evans, Sean Gunn, Mark Ruffalo, Chris Hemsworth, and Chadwick Boseman in Avengers: Endgame (2019)"
-- url: "https://m.media-amazon.com/images/M/MV5BODQwNzY4OGItZWY2MC00YWZmLTgwOGMtYmY1MjVkZjQ2YjIyXkEyXkFqcGc@._V1_.jpg"
-  caption: "Jeremy Renner in Avengers: Endgame (2019)"
+- url: "https://m.media-amazon.com/images/M/MV5BNmRhNDE2ODAtNWEwMS00OWU5LTlhOWYtNGRiZTkzMzZkMzVhXkEyXkFqcGc@._V1_.jpg"
+  caption: "Catherine Curtin, Wayne Duvall, Glenn Fleshler, Michaela Watkins, Sarah Burns, Michael Chernus, Milana Vayntrub, Harvey Guillén, Rebecca Henderson, Sam Richardson, and George Basil in Werewolves Within (2021)"
+- url: "https://m.media-amazon.com/images/M/MV5BNGRkN2M1M2UtYTI4OC00NWNmLTlkMWEtNDM2OTQ2OGI0YjUwXkEyXkFqcGc@._V1_.jpg"
+  caption: "Catherine Curtin, Wayne Duvall, Glenn Fleshler, Michaela Watkins, Sarah Burns, Michael Chernus, Milana Vayntrub, Harvey Guillén, Rebecca Henderson, Sam Richardson, and George Basil in Werewolves Within (2021)"
+- url: "https://m.media-amazon.com/images/M/MV5BOTE5Y2Q5YTYtNjViNi00YTA1LWJiMjItY2ZlNGE4OGNiM2E2XkEyXkFqcGc@._V1_.jpg"
+  caption: "Werewolves Within (2021)"
+- url: "https://m.media-amazon.com/images/M/MV5BNmZkZGIxMDktZjJiYi00Y2FlLWI0MjctNTIzMjM4MzRiMzM1XkEyXkFqcGc@._V1_.jpg"
+  caption: "Sarah Burns in Werewolves Within (2021)"
+- url: "https://m.media-amazon.com/images/M/MV5BYTU3NjUwODMtNjU2NS00MTQwLTk0OWUtZDMwNzc3YWMzZjU3XkEyXkFqcGc@._V1_.jpg"
+  caption: "Sarah Burns in Werewolves Within (2021)"
+- url: "https://m.media-amazon.com/images/M/MV5BZjE2YWIzYzUtYWFiNS00YjJhLTllNTctZDY5YzFhNzIwMDAzXkEyXkFqcGc@._V1_.jpg"
+  caption: "Rebecca Henderson in Werewolves Within (2021)"
+- url: "https://m.media-amazon.com/images/M/MV5BYmNlNzAwZDAtNjBiOC00ZDVmLTk0YzktZmVhYTEwOGViMDhiXkEyXkFqcGc@._V1_.jpg"
+  caption: "Milana Vayntrub in Werewolves Within (2021)"
+- url: "https://m.media-amazon.com/images/M/MV5BZDBjYThkN2MtMzYzZS00NTgyLWE1MDYtODI4NTAyNGRjMGY3XkEyXkFqcGc@._V1_.jpg"
+  caption: "Michaela Watkins in Werewolves Within (2021)"
+- url: "https://m.media-amazon.com/images/M/MV5BNWViODBmMzYtZDZhYi00YjZjLWFlZWMtYTkzM2Y1MjVmYTNlXkEyXkFqcGc@._V1_.jpg"
+  caption: "Michaela Watkins, Milana Vayntrub, and Sam Richardson in Werewolves Within (2021)"
+- url: "https://m.media-amazon.com/images/M/MV5BMmIxYWE3NWMtMDcwNy00MzhmLTkyNWEtZTM4Y2NlMDIwZWE1XkEyXkFqcGc@._V1_.jpg"
+  caption: "Glenn Fleshler in Werewolves Within (2021)"
 ---
 
-### <a href='https://www.imdb.com/title/tt4154796/'>Avengers: Endgame</a>
+### <a href='https://www.imdb.com/title/tt9288692/'>Werewolves Within (2021)</a>
 
 #### Starring
 
-- Robert Downey Jr.
-- Chris Evans
-- Mark Ruffalo
+- Sam Richardson
+- Milana Vayntrub
+- George Basil
 
 ##### Directed by
 
-- Anthony Russo
-- Joe Russo
+- Josh Ruben
 
-2019 🎬 PG-13 ⭐ 8.4<br/>
-Play time: 3:1<br/>
-(Disney, TBS, TNT)
+Rated R and 6 stars<br/>
+Play time: 1:37
+
 <!--
-After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos&apos; actions and restore balance to the universe.
+A new awkward park ranger arrives in a small town, and murder and havoc soon follows. The paranoid townsfolk soon suspect each other, but a devious, shapeshifting werewolf becomes their prime suspect. But who is it?
 
-### They had no right to do that
+### Not enough...
 
-First review from me. This film deserves it. A superhero film, marvel or not, does not have the right to send me on the emotional rollercoaster that End Game did. It has no right to do what it did, paying tribute to 10 years of films whilst changing the rules as to what a superhero film should be.
-
-I laughed, lots. I cried, lots. I cheered (quietly and internally of course), lots I even punched the air in a &quot;go on!&quot; during one scene
-
-I can honestly say, no film has ever moved me like that. Hours later, my heart was still pounding, the adrenaline still flowing from this epic piece of film making.
-
-Made by fans, for fans. Are there flaws? Yes. If you over think the story of course there is. But it works. It flows. It fits.
-
-Go with it. Enjoy the ride.
-
-Soak up every second, it doesn&apos;t feel like 3 hours, it feels like a flow of story reaching a conclusion that will shock and move you.
-
-I have nothing else to say.
-
-10/10. Well done Russo brothers. Well done!
-
-Fans! Assemble!
+It felt at times i was about to see something amazing happen but never happens. I was left disappointed with wanting more. The movie is well done and the cast is solid but it&apos;s just ok funny, never really crosses over the line to being really funny. It&apos;s worth a watch but not going to be a movie you watch again.
 -->
 
-
 ---
-name: "Star Trek"
-url: https://www.imdb.com/title/tt0796366/
+name: "Wreck-It Ralph"
+url: https://www.imdb.com/title/tt1772341/
 layout: movie-stills
-cover: https://m.media-amazon.com/images/M/MV5BMjE5NDQ5OTE4Ml5BMl5BanBnXkFtZTcwOTE3NDIzMw@@._V1_.jpg
-trailer: https://www.imdb.com/videoembed/vi1761608473/
+cover: https://m.media-amazon.com/images/M/MV5BNzMxNTExOTkyMF5BMl5BanBnXkFtZTcwMzEyNDc0OA@@._V1_.jpg
+trailer: https://www.imdb.com/videoembed/vi3621299225/
 images:
-- url: "https://m.media-amazon.com/images/M/MV5BMTMwNDUyNTM5NV5BMl5BanBnXkFtZTcwOTE4NDIzMw@@._V1_.jpg"
-  caption: "Chris Pine in Star Trek (2009)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTk0NDQ0MDAwNF5BMl5BanBnXkFtZTcwMDI4NDIzMw@@._V1_.jpg"
-  caption: "Chris Pine in Star Trek (2009)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTQyNzI5MjQwNl5BMl5BanBnXkFtZTcwMTI4NDIzMw@@._V1_.jpg"
-  caption: "John Cho and Chris Pine in Star Trek (2009)"
-- url: "https://m.media-amazon.com/images/M/MV5BMjEzMzk3NTY3M15BMl5BanBnXkFtZTcwMjI4NDIzMw@@._V1_.jpg"
-  caption: "Anton Yelchin in Star Trek (2009)"
-- url: "https://m.media-amazon.com/images/M/MV5BYTZiMWIxZTMtMmYyMy00OGJjLWIzM2YtNDBlYjg5MGU1MDE2XkEyXkFqcGc@._V1_.jpg"
-  caption: "Eric Bana and Mark Casimir Dyniewicz Jr. in Star Trek (2009)"
-- url: "https://m.media-amazon.com/images/M/MV5BMjE1NTgxMjM0OV5BMl5BanBnXkFtZTgwNDg1MTE3MzI@._V1_.jpg"
-  caption: "Leonard Nimoy in Star Trek (2009)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTQ1MDEyNTg4MF5BMl5BanBnXkFtZTcwMzE4NDIzMw@@._V1_.jpg"
-  caption: "Zachary Quinto in Star Trek (2009)"
-- url: "https://m.media-amazon.com/images/M/MV5BMjIyNTkwNjcwOV5BMl5BanBnXkFtZTcwNDE4NDIzMw@@._V1_.jpg"
-  caption: "Eric Bana in Star Trek (2009)"
-- url: "https://m.media-amazon.com/images/M/MV5BMzQyNzE2NTgwOF5BMl5BanBnXkFtZTcwNjE4NDIzMw@@._V1_.jpg"
-  caption: "John Cho and Chris Pine in Star Trek (2009)"
-- url: "https://m.media-amazon.com/images/M/MV5BMjA1NDExMDI0NV5BMl5BanBnXkFtZTcwODE4NDIzMw@@._V1_.jpg"
-  caption: "Chris Pine in Star Trek (2009)"
+- url: "https://m.media-amazon.com/images/M/MV5BMTgyOTQyNzI0OV5BMl5BanBnXkFtZTcwMzI3NTM1OA@@._V1_.jpg"
+  caption: "John C. Reilly and Jane Lynch in Wreck-It Ralph (2012)"
+- url: "https://m.media-amazon.com/images/M/MV5BMjAxODM4ODAwMl5BMl5BanBnXkFtZTcwMDI2NDQ1OA@@._V1_.jpg"
+  caption: "John C. Reilly and Cymbre Walk in Wreck-It Ralph (2012)"
+- url: "https://m.media-amazon.com/images/M/MV5BMTQ0MTQ3NzY4OV5BMl5BanBnXkFtZTcwODE2NDQ1OA@@._V1_.jpg"
+  caption: "Dennis Haysbert in Wreck-It Ralph (2012)"
+- url: "https://m.media-amazon.com/images/M/MV5BMTkzNDU5NjIxNl5BMl5BanBnXkFtZTcwOTE2NDQ1OA@@._V1_.jpg"
+  caption: "John C. Reilly and Katie Lowes in Wreck-It Ralph (2012)"
+- url: "https://m.media-amazon.com/images/M/MV5BOTE2Njc0NTQ1M15BMl5BanBnXkFtZTcwMTI2NDQ1OA@@._V1_.jpg"
+  caption: "John C. Reilly and Mindy Kaling in Wreck-It Ralph (2012)"
+- url: "https://m.media-amazon.com/images/M/MV5BMTU5Mjg1Mzc1OF5BMl5BanBnXkFtZTcwMjI2NDQ1OA@@._V1_.jpg"
+  caption: "John C. Reilly and Rich Moore in Wreck-It Ralph (2012)"
+- url: "https://m.media-amazon.com/images/M/MV5BMTcwMjA1OTU5OF5BMl5BanBnXkFtZTcwNDI2NDQ1OA@@._V1_.jpg"
+  caption: "Wreck-It Ralph (2012)"
+- url: "https://m.media-amazon.com/images/M/MV5BMTU1NDQ4NzM2MF5BMl5BanBnXkFtZTcwNTI2NDQ1OA@@._V1_.jpg"
+  caption: "John C. Reilly in Wreck-It Ralph (2012)"
+- url: "https://m.media-amazon.com/images/M/MV5BMTc4MjczMTk2NF5BMl5BanBnXkFtZTcwNjI2NDQ1OA@@._V1_.jpg"
+  caption: "John C. Reilly and Sarah Silverman in Wreck-It Ralph (2012)"
+- url: "https://m.media-amazon.com/images/M/MV5BMTM0OTA0MDcwN15BMl5BanBnXkFtZTcwODI2NDQ1OA@@._V1_.jpg"
+  caption: "John C. Reilly, Rachael Harris, Jess Harnell, and Jack McBrayer in Wreck-It Ralph (2012)"
 ---
 
-### <a href='https://www.imdb.com/title/tt0796366/'>Star Trek (2009)</a>
+### <a href='https://www.imdb.com/title/tt1772341/'>Wreck-It Ralph (2012)</a>
 
 #### Starring
 
-- Chris Pine
-- Zachary Quinto
-- Simon Pegg
+- John C. Reilly
+- Jack McBrayer
+- Jane Lynch
 
 ##### Directed by
 
-- J.J. Abrams
+- Rich Moore
 
-2009 🎬 PG-13 ⭐ 7.9<br/>
-Play time: 2:7<br/>
-(Paramount+)
+Rated PG and 7.7 stars<br/>
+Play time: 1:41
 
 <!--
-The brash James T. Kirk tries to live up to his father&apos;s legacy with Mr. Spock keeping him in check as a vengeful Romulan from the future creates black holes to destroy the Federation one planet at a time.
+Ralph is tired of playing the role of a bad guy and embarks on a journey to become a video game hero. But he accidentally lets loose a deadly enemy that threatens the entire arcade.
 
-### Blockbusterised
+### Virtual Joys
 
-I haven&apos;t seen the original Star Trek but it has a reputation for being heavy on the technobabble and continuity lockout. This film is an attempt to remake it closer to a traditional Hollywood blockbuster and it works. It is easy to follow and full of exciting action, though I can&apos;t compare it with the original.
+Wreck-It Ralph imagines a world where arcade game characters have their own lives. It&apos;s like a video game version of Toy Story and Who Framed Roger Rabbit, but this one is much more appealing to the viewers. As expected, it has an endless amount of enjoyment, a big scale of adventure, and really fun characters. The filmmakers poured their love of these games to the film thus made this a wonderful nostalgic delight.
+
+The story doesn&apos;t sound quite fresh at some point, especially for an animated film, but the main attraction here is the theme. It sets in a magnificent arcade world. It&apos;s fun when it captures the prominent video game mannerism like the freezy movements in retro games, an out of control game character walking against the wall in 3D games, and the glitching. It&apos;s easy to know what the central games are inspired from. Many would root for the cameos of iconic game characters and each of their appearance are splendid. The movie is filled with action set pieces that are undeniably exciting. By its grand scale and references, the experience is gloriously extraordinary.
+
+Another charms of the film is the characters. We don&apos;t usually see films with well developed characters in blockbusters these days but this one has plenty of it. They all have their own pathos, but in a comical way. And the voice performances were great. John C. Reily gives Ralph an acceptably nice personality. Sarah Silverman makes Vanellope adorable enough. Jack McBrayer is quite charming as the always positive Fix-It Felix Jr. and Alan Tudyk is delightful as the goofy King Candy.
+
+The animation is wonderful. Like what I said, they really capture the elements of every video game. The game &quot;Sugar Rush&quot; has the most colorful(and product placed) visuals of the film. The rest is thoroughly inspired. 3D is usually unnecessary but here is just fine. It&apos;s kind of worth it by its large adventures. There is no scene after the credits but it&apos;s better to stay during it to listen to the theme songs of &quot;Sugar Rush&quot; and &quot;Fix-It Felix Jr.&quot;.
+
+There isn&apos;t much groundbreaking about Wreck-It Ralph but what makes this special is its tribute to the classic video games. It also serves an over the top fun and sweetness(no Sugar Rush pun intended). It&apos;s so fun, it&apos;s easy to ignore its little flaws. There are some things that could have been better, but the film is already good enough. To those who love playing video-games will enjoy this a lot more. It&apos;s just full of life and nostalgia. Wreck-It Ralph is a great virtual ride!
 -->
 
 ---
-name: "Inception"
-url: https://www.imdb.com/title/tt1375666/
+name: "Sonic the Hedgehog"
+url: https://www.imdb.com/title/tt3794354/
 layout: movie-stills
-cover: https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg
-trailer: https://www.imdb.com/videoembed/vi2959588889/
+cover: https://m.media-amazon.com/images/M/MV5BYTg2Yjc5MzItNzVmMi00MTllLWI2MDQtOTYyOWNjYWIxNzEzXkEyXkFqcGc@._V1_.jpg
+trailer: https://www.imdb.com/videoembed/vi3594698521/
 images:
-- url: "https://m.media-amazon.com/images/M/MV5BMjIyNjk1OTgzNV5BMl5BanBnXkFtZTcwOTU0OTk1Mw@@._V1_.jpg"
-  caption: "Leonardo DiCaprio and Ken Watanabe in Inception (2010)"
-- url: "https://m.media-amazon.com/images/M/MV5BNjMxNjI1Mjc1OV5BMl5BanBnXkFtZTcwMDY0OTk1Mw@@._V1_.jpg"
-  caption: "Leonardo DiCaprio, Tom Berenger, Joseph Gordon-Levitt, Tom Hardy, Cillian Murphy, Elliot Page, and Ken Watanabe in Inception (2010)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTk1NDM4MDMwMF5BMl5BanBnXkFtZTcwMjY0OTk1Mw@@._V1_.jpg"
-  caption: "Leonardo DiCaprio, Christopher Nolan, and Elliot Page in Inception (2010)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTY3MzMzMDgyMF5BMl5BanBnXkFtZTcwMzY0OTk1Mw@@._V1_.jpg"
-  caption: "Leonardo DiCaprio, Joseph Gordon-Levitt, Tom Hardy, Elliot Page, Ken Watanabe, and Dileep Rao in Inception (2010)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTMxNDExNzM4MV5BMl5BanBnXkFtZTcwNDY0OTk1Mw@@._V1_.jpg"
-  caption: "Lukas Haas and Ken Watanabe in Inception (2010)"
-- url: "https://m.media-amazon.com/images/M/MV5BMjExMjkwNTQ0Nl5BMl5BanBnXkFtZTcwNTY0OTk1Mw@@._V1_.jpg"
-  caption: "Leonardo DiCaprio in Inception (2010)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTM0MjUzNjkwMl5BMl5BanBnXkFtZTcwNjY0OTk1Mw@@._V1_.jpg"
-  caption: "Leonardo DiCaprio and Joseph Gordon-Levitt in Inception (2010)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTgxNjg2OTc2M15BMl5BanBnXkFtZTcwNzY0OTk1Mw@@._V1_.jpg"
-  caption: "Leonardo DiCaprio, Tom Hardy, and Cillian Murphy in Inception (2010)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTAyNjQ2NTIyMzBeQTJeQWpwZ15BbWU3MDY3NDk5NTM@._V1_.jpg"
-  caption: "Joseph Gordon-Levitt and Tom Hardy in Inception (2010)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTAzNTQwMDQ4ODReQTJeQWpwZ15BbWU3MDczNDk5NTM@._V1_.jpg"
-  caption: "Leonardo DiCaprio, Joseph Gordon-Levitt, and Tom Hardy in Inception (2010)"
+- url: "https://m.media-amazon.com/images/M/MV5BYjk0ZTAxNDQtZWQyZC00NmZiLWJmZGItMmNkYjMwZWUxYzAzXkEyXkFqcGc@._V1_.jpg"
+  caption: "Jim Carrey and Robotnik the Robot in Sonic the Hedgehog (2020)"
+- url: "https://m.media-amazon.com/images/M/MV5BZTUwZWY2YzQtYzY1Ni00ZDQxLWE5N2MtNjZjZGVlNzM3Zjc3XkEyXkFqcGc@._V1_.jpg"
+  caption: "Ben Schwartz and Sonic in Sonic the Hedgehog (2020)"
+- url: "https://m.media-amazon.com/images/M/MV5BNWE5MWU2ZjctMzYyNS00MjBjLWI4YzAtZGU5ZDk0ZDExMDBjXkEyXkFqcGc@._V1_.jpg"
+  caption: "Jim Carrey, James Marsden, Talking Tom, and Robotnik the Robot in Sonic the Hedgehog (2020)"
+- url: "https://m.media-amazon.com/images/M/MV5BZTdmNzI5NWYtMWQ0YS00YjU0LTg1NTItN2NhMGViNmQ2OTA3XkEyXkFqcGc@._V1_.jpg"
+  caption: "James Marsden, Maddie, Tika Sumpter, and Talking Tom in Sonic the Hedgehog (2020)"
+- url: "https://m.media-amazon.com/images/M/MV5BNjdlNDA2MzAtNjI5Ni00ZDA0LWIxNjQtMzA5ZDQyNjE5MDEyXkEyXkFqcGc@._V1_.jpg"
+  caption: "James Marsden and Talking Tom in Sonic the Hedgehog (2020)"
+- url: "https://m.media-amazon.com/images/M/MV5BYzQ3Y2U2ZTAtMzg1NC00NjFmLThiY2ItOTY0YmMxNDNhODQ2XkEyXkFqcGc@._V1_.jpg"
+  caption: "James Marsden and Talking Tom in Sonic the Hedgehog (2020)"
+- url: "https://m.media-amazon.com/images/M/MV5BYjZkNzg0YjktNDk5Mi00NzFjLTljZWEtZjI4ZWU1YTY0MjM5XkEyXkFqcGc@._V1_.jpg"
+  caption: "Jim Carrey and Robotnik the Robot in Sonic the Hedgehog (2020)"
+- url: "https://m.media-amazon.com/images/M/MV5BMmM0MWJkNmEtZTdiNC00NDY4LWE0ODUtNzU3ODZjYTM4YjNiXkEyXkFqcGc@._V1_.jpg"
+  caption: "Ben Schwartz in Sonic the Hedgehog (2020)"
+- url: "https://m.media-amazon.com/images/M/MV5BMWJiODE1MmItMDdhYy00ZGY4LWI4ZWQtMzZjOWFmOTg1OGZmXkEyXkFqcGc@._V1_.jpg"
+  caption: "Jim Carrey and Robotnik the Robot in Sonic the Hedgehog (2020)"
+- url: "https://m.media-amazon.com/images/M/MV5BMmY2ODZiNzctNjdmNi00MDUzLWI3NDMtM2Y2ZDk0Y2JkMTFhXkEyXkFqcGc@._V1_.jpg"
+  caption: "Jim Carrey, Agent 17, Lee Majdoub, and Robotnik the Robot in Sonic the Hedgehog (2020)"
 ---
 
-### <a href='https://www.imdb.com/title/tt1375666/'>Inception</a>
+### <a href='https://www.imdb.com/title/tt3794354/'>Sonic the Hedgehog (2020)</a>
 
 #### Starring
 
-- Leonardo DiCaprio
-- Joseph Gordon-Levitt
-- Elliot Page
+- Ben Schwartz
+- James Marsden
+- Jim Carrey
 
 ##### Directed by
 
-- Christopher Nolan
+- Jeff Fowler
 
-2010 🎬 PG-13 ⭐ 8.8<br/>
-Play time: 2:28<br/>
-(HBO/Max)
+Rated PG and 6.5 stars<br/>
+Play time: 1:39
 
 <!--
-A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.
+Taking refuge on Earth, when Sonic uses his incredible speed and accidentally knock out the power in part of the United States, he catches the attention of Dr. Robotnik and must stop him from using his unique power for world domin...
 
-### My number one favorite movie
+### Plenty of fun.
 
-Inception is my number one favorite movie off my twelve years on earth! It&apos;s absolutely impossible to explain the incredible that Inception has. Inception is Sooooooooo dang exciting, edge of seat, mind blower, and I wish there were more movies like it and more Christopher Nolans out there. Congratulations to the well deserved best director, writer, and producer of films (in my opinion). Also the acting is fabulous, everyone did an amazing job, and Leonardo was fabulous at explaining the dream concept. Also the CGI and effects are amazing. Go watch Inception because it is incredibly amazing in every aspect, and is my number one film of my twelve years on earth. Bravo to the Inception crew and wow at this fabulous movie!
+I wasn&apos;t expecting to enjoy this, but I did, it literally was a burst of fun and energy, just like the game itself.
+
+I would imagine there were many that would have wanted to make a movie when Sonic really was big news, but perhaps the technology at the time wasn&apos;t sufficient, now though such resources are available, it looks great.
+
+Standout for me was Dr Robotnik, Jim Carrey looks awesome, and as always delivers with such charisma.
+
+It won&apos;t win awards, but enjoyed it, it was genuine good fun. 7/10
+
+*Wishes for those days of Sonic on Megadrive.
 -->
 
 ---
-name: "Deadpool 2"
-url: https://www.imdb.com/title/tt5463162/
+name: "Scott Pilgrim vs. the World"
+url: https://www.imdb.com/title/tt0446029/
 layout: movie-stills
-cover: https://m.media-amazon.com/images/M/MV5BNGY3N2ZhYmMtYTlmYi00ZWIzLWJiZWMtMjgxMjljYTk3MDAwXkEyXkFqcGc@._V1_.jpg
-trailer: https://www.imdb.com/videoembed/vi2984557081/
+cover: https://m.media-amazon.com/images/M/MV5BNTA5ZWMwNmYtNWI1ZS00NDRlLTkxNzktMzdhZDU2ZDhjNDJmXkEyXkFqcGc@._V1_.jpg
+trailer: https://www.imdb.com/videoembed/vi4036739097/
 images:
-- url: "https://m.media-amazon.com/images/M/MV5BN2JiZTM0YTUtZTMzMy00ZjgzLTk0ZGItZGIyMjRhN2NjMjdjXkEyXkFqcGc@._V1_.jpg"
-  caption: "Ryan Reynolds and David Leitch in Deadpool 2 (2018)"
-- url: "https://m.media-amazon.com/images/M/MV5BMmM2NmMyOTUtZTQwNC00MWM0LTk5NWMtZGE1ZDY1MDUxYWIxXkEyXkFqcGc@._V1_.jpg"
-  caption: "Ryan Reynolds in Deadpool 2 (2018)"
-- url: "https://m.media-amazon.com/images/M/MV5BMjRiZjkxMDktZDQ4Ny00NDYxLWI3M2EtNDU1MGE2NDM5NDg3XkEyXkFqcGc@._V1_.jpg"
-  caption: "Josh Brolin in Deadpool 2 (2018)"
-- url: "https://m.media-amazon.com/images/M/MV5BYjNmOTY4YzUtOGJkMC00YTFjLThjMmMtNjFhZDllNzAxZTkxXkEyXkFqcGc@._V1_.jpg"
-  caption: "Zazie Beetz in Deadpool 2 (2018)"
-- url: "https://m.media-amazon.com/images/M/MV5BNjhkMzA1ZTEtY2Q3ZC00YjkyLWIzYTQtODYwNGEwMTc2NzFkXkEyXkFqcGc@._V1_.jpg"
-  caption: "Zazie Beetz in Deadpool 2 (2018)"
-- url: "https://m.media-amazon.com/images/M/MV5BYTc2YTM4NjQtY2RjOS00ZGJiLWFmYzAtYzUxOWI4M2I3NDI3XkEyXkFqcGc@._V1_.jpg"
-  caption: "Ryan Reynolds and Karan Soni in Deadpool 2 (2018)"
-- url: "https://m.media-amazon.com/images/M/MV5BZjk3NGIxZWMtZjU5Yy00YjZjLTliZTAtMjM0NjdiOWQ2NDcxXkEyXkFqcGc@._V1_.jpg"
-  caption: "Mike Dopud, Richard Rigby, Dan Zachary, Jordan Davis, Miles Ellis, Julian Dennison, and Peter Marcin in Deadpool 2 (2018)"
-- url: "https://m.media-amazon.com/images/M/MV5BMGExZTdhNDgtMWU2OC00YzBjLTk0NTgtZmI2M2QxNzcwNzFlXkEyXkFqcGc@._V1_.jpg"
-  caption: "Ryan Reynolds and Leslie Uggams in Deadpool 2 (2018)"
-- url: "https://m.media-amazon.com/images/M/MV5BODljMDk0YzUtNTNlMC00N2Y2LWFiZTQtZDNjNzg2ZmRiMTE2XkEyXkFqcGc@._V1_.jpg"
-  caption: "Shioli Kutsuna and Brianna Hildebrand in Deadpool 2 (2018)"
-- url: "https://m.media-amazon.com/images/M/MV5BZWFlYjAzYjktMzY3OS00YTc1LTllY2YtMGIzNjhjYmNjYmExXkEyXkFqcGc@._V1_.jpg"
-  caption: "Ryan Reynolds and Zazie Beetz in Deadpool 2 (2018)"
+- url: "https://m.media-amazon.com/images/M/MV5BMjE2MjA3MDAxNF5BMl5BanBnXkFtZTcwOTE3MTk2Mw@@._V1_.jpg"
+  caption: "Kieran Culkin in Scott Pilgrim vs. the World (2010)"
+- url: "https://m.media-amazon.com/images/M/MV5BMjE4Njk0OTI3MF5BMl5BanBnXkFtZTcwMDI3MTk2Mw@@._V1_.jpg"
+  caption: "Michael Cera, Mark Webber, and Johnny Simmons in Scott Pilgrim vs. the World (2010)"
+- url: "https://m.media-amazon.com/images/M/MV5BMTMzMjQ5MTMzNl5BMl5BanBnXkFtZTcwMTI3MTk2Mw@@._V1_.jpg"
+  caption: "Jason Schwartzman and Mary Elizabeth Winstead in Scott Pilgrim vs. the World (2010)"
+- url: "https://m.media-amazon.com/images/M/MV5BNjU5OTc4MTk0N15BMl5BanBnXkFtZTcwMjI3MTk2Mw@@._V1_.jpg"
+  caption: "Michael Cera, Alison Pill, and Johnny Simmons in Scott Pilgrim vs. the World (2010)"
+- url: "https://m.media-amazon.com/images/M/MV5BNTYxODM4Njg3NF5BMl5BanBnXkFtZTcwMzI3MTk2Mw@@._V1_.jpg"
+  caption: "Michael Cera, Brie Larson, Alison Pill, Brandon Routh, Mary Elizabeth Winstead, and Aubrey Plaza in Scott Pilgrim vs. the World (2010)"
+- url: "https://m.media-amazon.com/images/M/MV5BMTY0NzY2NDY3Ml5BMl5BanBnXkFtZTcwNDI3MTk2Mw@@._V1_.jpg"
+  caption: "Michael Cera in Scott Pilgrim vs. the World (2010)"
+- url: "https://m.media-amazon.com/images/M/MV5BMjIxODE0MDIxN15BMl5BanBnXkFtZTcwNTI3MTk2Mw@@._V1_.jpg"
+  caption: "Michael Cera and Satya Bhabha in Scott Pilgrim vs. the World (2010)"
+- url: "https://m.media-amazon.com/images/M/MV5BMTg2NjkxOTkyN15BMl5BanBnXkFtZTcwNjI3MTk2Mw@@._V1_.jpg"
+  caption: "Michael Cera and Mary Elizabeth Winstead in Scott Pilgrim vs. the World (2010)"
+- url: "https://m.media-amazon.com/images/M/MV5BNTYxNDg2NDk3MV5BMl5BanBnXkFtZTcwNzI3MTk2Mw@@._V1_.jpg"
+  caption: "Michael Cera and Mary Elizabeth Winstead in Scott Pilgrim vs. the World (2010)"
+- url: "https://m.media-amazon.com/images/M/MV5BMTMwNTY5MzcwMV5BMl5BanBnXkFtZTcwODI3MTk2Mw@@._V1_.jpg"
+  caption: "Mary Elizabeth Winstead in Scott Pilgrim vs. the World (2010)"
 ---
 
-### <a href='https://www.imdb.com/title/tt5463162/'>Deadpool 2</a>
+### <a href='https://www.imdb.com/title/tt0446029/'>Scott Pilgrim vs. the World (2010)</a>
+
+#### Starring
+
+- Michael Cera
+- Mary Elizabeth Winstead
+- Kieran Culkin
+
+##### Directed by
+
+- Edgar Wright
+
+Rated PG-13 and 7.5 stars<br/>
+Play time: 1:52
+
+<!--
+A young man must defeat his new girlfriend&apos;s seven evil exes, who are willing to do anything to prevent her happiness with someone else.
+
+### Most enjoyable film I&apos;ve seen (so far) this year!
+
+I heard many good things about this movie before I went to see it. Even so, I didn&apos;t go in with too many expectations I wasn&apos;t disappointed. This was probably the most enjoyable movie I&apos;ve seen so far this year. I walked out of the cinema with a smile on my face and there was even a spring in my step as I went over the preceding 112 minutes in my mind.
+
+Scott Pilgrim is a 22 year-old living in Toronto, Canada with his gay flatmate, Wallace Wells. Scott plays bass in a band called Sex Bob-Omb which consists of Scott (of course), Kim Pine on drums, Stephen Stills on lead vocals and guitar and Young Neil as hanger-on. The band has ambitions to be famous and so have a gig coming up at a Battle of the Bands show. At the start of the film he is dating a seventeen year old schoolgirl called Knives Chau. Things seem to be going along quite well until Scott has a vision of a girl called Ramona Flowers. He becomes besotted by her and they end up hanging out together and eventually dating. Unfortunately Scott soon learns that if he wants to date Ramona he must first defeat her seven evil exe&apos;s! Can Scott defeat these evil exe&apos;s and win Ramona? What will Knives think of his infidelity? All these questions and many more remain to be answered until you&apos;ve seen the film of course.
+
+As I said at the beginning, this was probably the most enjoyable film I&apos;ve watched so far this year. I found the quirky mix of live action with comic book elements quite refreshing and it gave the film an interesting look and feel that I liked a lot! Great performances all round, especially from Michael Cera as Scott Pilgrim, Mary Elizabeth Winstead as Ramona Flowers, Kieran Culkin as Wallace Wells, Mark Webber as Stephen Stills, Alison Pill as Kim Pine and Ellen Wong as Knives Chau.
+
+This will most certainly feature in my best of the year awards in December. It did start to lose me a bit towards the end, but I won&apos;t hold that against it. A really well made film which deserves the praise it has got (IMO). Well worth the entrance fee and very highly recommended.
+
+My score: 8.3/10
+-->
+
+---
+name: "The Last Starfighter"
+url: https://www.imdb.com/title/tt0087597/
+layout: movie-stills
+cover: https://m.media-amazon.com/images/M/MV5BYzQ0ZjJlZjEtOWFjOC00ZThmLWJkY2UtNjNlZGJjMzU4MWVkXkEyXkFqcGc@._V1_.jpg
+trailer: https://www.imdb.com/videoembed/vi2959457817/
+images:
+- url: "https://m.media-amazon.com/images/M/MV5BMTY3NDkxMzc0MF5BMl5BanBnXkFtZTgwMzcyODIwMjE@._V1_.jpg"
+  caption: "John O'Leary and Robert Preston in The Last Starfighter (1984)"
+- url: "https://m.media-amazon.com/images/M/MV5BMTQ5ODU2NjU1NV5BMl5BanBnXkFtZTgwNDcyODIwMjE@._V1_.jpg"
+  caption: "Dan O'Herlihy in The Last Starfighter (1984)"
+- url: "https://m.media-amazon.com/images/M/MV5BMTg4NTM1NDU2MV5BMl5BanBnXkFtZTgwNTcyODIwMjE@._V1_.jpg"
+  caption: "Lance Guest, Dan O'Herlihy, and Catherine Mary Stewart in The Last Starfighter (1984)"
+- url: "https://m.media-amazon.com/images/M/MV5BMTQwODI1OTYxNF5BMl5BanBnXkFtZTgwNjcyODIwMjE@._V1_.jpg"
+  caption: "Robert Preston in The Last Starfighter (1984)"
+- url: "https://m.media-amazon.com/images/M/MV5BMTc5OTc2NTg2MV5BMl5BanBnXkFtZTgwNzcyODIwMjE@._V1_.jpg"
+  caption: "Scott Dunlop in The Last Starfighter (1984)"
+- url: "https://m.media-amazon.com/images/M/MV5BODczYWQzNDItNWE0YS00MGY3LWIzMWItODkwOWU1ZmI1YmE3XkEyXkFqcGc@._V1_.jpg"
+  caption: "The Last Starfighter (1984)"
+- url: "https://m.media-amazon.com/images/M/MV5BOGE1YTc5NzQtYzUzZC00MTFjLWE5MTUtNzAwZDA0MjIyMjdlXkEyXkFqcGc@._V1_.jpg"
+  caption: "Scott Dunlop, Lance Guest, and John Maio in The Last Starfighter (1984)"
+- url: "https://m.media-amazon.com/images/M/MV5BM2VjNDc5OTctZmFhNi00MzQ3LTk1ZTgtNWU3MDFlOTVkZGNhXkEyXkFqcGc@._V1_.jpg"
+  caption: "Scott Dunlop, Lance Guest, and John Maio in The Last Starfighter (1984)"
+- url: "https://m.media-amazon.com/images/M/MV5BYWZjM2RkM2ItMzc3ZC00NDFjLWIyMmUtODgzZTljMGMwZDA1XkEyXkFqcGc@._V1_.jpg"
+  caption: "The Last Starfighter (1984)"
+- url: "https://m.media-amazon.com/images/M/MV5BYWRiZWI3M2EtYjNiZS00NDMzLWEwOWUtOGY5YjM1MmYyZDAyXkEyXkFqcGc@._V1_.jpg"
+  caption: "Kay E. Kuter in The Last Starfighter (1984)"
+---
+
+### <a href='https://www.imdb.com/title/tt0087597/'>The Last Starfighter (1984)</a>
+
+#### Starring
+
+- Lance Guest
+- Robert Preston
+- Kay E. Kuter
+
+##### Directed by
+
+- Nick Castle
+
+Rated PG and 6.7 stars<br/>
+Play time: 1:40
+
+<!--
+High schooler Alex Rogan conquers the Starfighter video game, only to find out it was just a test, and is transported to another planet. He has been recruited to join a team of the best starfighters to defend their world from the ...
+
+### 80&apos;s Classic Sci-Fi Movie
+
+I love this movie, total nostalgia. Before Avengers/Guardians of the Galaxy, there was The Last Starfighter, please add this movie to one&apos;s that I would love to have a remake!
+-->
+
+---
+name: "WarGames"
+url: https://www.imdb.com/title/tt0086567/
+layout: movie-stills
+cover: https://m.media-amazon.com/images/M/MV5BMmM5MDlmZWUtYTE1Mi00M2JiLTk1NzYtMTg0NTdlMzM2N2RkXkEyXkFqcGc@._V1_.jpg
+trailer: https://www.imdb.com/videoembed/vi4174365721/
+images:
+- url: "https://m.media-amazon.com/images/M/MV5BMjMxNjQ2NTIzN15BMl5BanBnXkFtZTgwMDg5NTI2NTM@._V1_.jpg"
+  caption: "Matthew Broderick and Ally Sheedy in WarGames (1983)"
+- url: "https://m.media-amazon.com/images/M/MV5BMTU3MDcyNjg3Nl5BMl5BanBnXkFtZTgwMTg5NTI2NTM@._V1_.jpg"
+  caption: "Barry Corbin and Michael Ensign in WarGames (1983)"
+- url: "https://m.media-amazon.com/images/M/MV5BMTA3OTY2NDk2MDheQTJeQWpwZ15BbWU4MDI4OTUyNjUz._V1_.jpg"
+  caption: "Dabney Coleman, Juanin Clay, and Duncan Wilmore in WarGames (1983)"
+- url: "https://m.media-amazon.com/images/M/MV5BMjE0MzEyMDMyM15BMl5BanBnXkFtZTgwMzg5NTI2NTM@._V1_.jpg"
+  caption: "Matthew Broderick, Ally Sheedy, and John Wood in WarGames (1983)"
+- url: "https://m.media-amazon.com/images/M/MV5BMjA1ODQ5OTk0N15BMl5BanBnXkFtZTgwNDg5NTI2NTM@._V1_.jpg"
+  caption: "Matthew Broderick and Howie Allen in WarGames (1983)"
+- url: "https://m.media-amazon.com/images/M/MV5BMTEzODU5NTU1ODBeQTJeQWpwZ15BbWU4MDU4OTUyNjUz._V1_.jpg"
+  caption: "Matthew Broderick and Ally Sheedy in WarGames (1983)"
+- url: "https://m.media-amazon.com/images/M/MV5BMTgwNTkyNTA2N15BMl5BanBnXkFtZTcwNDkwNDc3NA@@._V1_.jpg"
+  caption: "Matthew Broderick and Ally Sheedy in WarGames (1983)"
+- url: "https://m.media-amazon.com/images/M/MV5BMTEyNTMzNDg1ODZeQTJeQWpwZ15BbWU3MDU5MDQ3NzQ@._V1_.jpg"
+  caption: "Matthew Broderick and Ally Sheedy in WarGames (1983)"
+- url: "https://m.media-amazon.com/images/M/MV5BOTE5NDY1NTMxN15BMl5BanBnXkFtZTcwNjkwNDc3NA@@._V1_.jpg"
+  caption: "Barry Corbin, Joe Dorsey, and Michael Ensign in WarGames (1983)"
+- url: "https://m.media-amazon.com/images/M/MV5BMjI3NTcyMDU5MV5BMl5BanBnXkFtZTcwNzkwNDc3NA@@._V1_.jpg"
+  caption: "Matthew Broderick, Ally Sheedy, Dabney Coleman, Juanin Clay, Jack Clinton, Barry Corbin, Michael Ensign, Irving Metzman, Duncan Wilmore, and John Wood in WarGames (1983)"
+---
+
+### <a href='https://www.imdb.com/title/tt0086567/'>WarGames (1983)</a>
+
+#### Starring
+
+- Matthew Broderick
+- Ally Sheedy
+- John Wood
+
+##### Directed by
+
+- John Badham
+
+Rated PG and 7.1 stars<br/>
+Play time: 1:54
+
+<!--
+A young man finds a back door into a military central computer in which reality is confused with game-playing, possibly starting World War III.
+
+### Let&apos;s play Global Thermonuclear War
+
+WarGames is a film which in some ways seems hopelessly dated and in other ways seems to have been way ahead of its time. There&apos;s the Cold War angle, the United States and the Soviet Union gearing up for the seemingly inevitable World War III and the nuclear holocaust that would go along with it. It&apos;s a 1980s storyline which doesn&apos;t play as well all these years later with the Soviet Union long having been consigned to the dustbin of history. Nowadays the threat comes not from one communist superpower but from...well, pretty much anywhere it seems. But then again this movie, made in 1983, is at its heart really about a computer hacker. Who, in 1983, even knew there was such a thing as a computer hacker? Ahead of its time this movie is.
+
+While certain aspects of the story may seem less relevant today there is no denying that WarGames is an effective, entertaining thriller. There may be some flaws in the movie&apos;s logic now and again, not everything we see seems entirely plausible. But the movie works. The story centers around Seattle high school student David Lightman, who is not doing particularly well in school. But it&apos;s not because he isn&apos;t bright, he certainly is. He just seems unmotivated and perhaps distracted by his obsession with computers. That obsession plays itself out as he attempts to hack into a video game manufacturer&apos;s computer...and instead unknowingly hacks into a Defense Department computer. In playing the &quot;games&quot; on that computer he almost starts World War III. Whoops.
+
+Matthew Broderick plays David and his performance is excellent as he portrays a young teen who finds himself caught up in a situation beyond his imagination. Ally Sheedy plays his friend Jennifer, a character who seems a tad bit underdeveloped. It often seems that Jennifer&apos;s just along for the ride rather than having any real purpose in the plot. But Sheedy does well with what she has to work with. Our young hero and heroine are very much the focus of the story, at times to detrimental effect. All the adults in the story seem rather one-dimensional. Some of them have very important roles to play in the story yet we never know much of anything about them. Besides David and Jennifer there&apos;s really only one other character for whom there is any kind of character development going on and that character doesn&apos;t even show up until rather late in the proceedings. But this is a movie which will definitely hold your attention. It&apos;s a tense, taut thriller which also has some heart to it. And it often looks spectacular, most notably in the scenes which take place inside the NORAD war room, a movie set which was stunningly impressive for its time and actually would still be stunningly impressive today. All in all WarGames is a well-made, suspenseful, enjoyable film. It has its flaws but it is still a film well worth seeing.
+-->
+
+---
+name: "Pokémon: Detective Pikachu"
+url: https://www.imdb.com/title/tt5884052/
+layout: movie-stills
+cover: https://m.media-amazon.com/images/M/MV5BNDU4Mzc3NzE5NV5BMl5BanBnXkFtZTgwMzE1NzI1NzM@._V1_.jpg
+trailer: https://www.imdb.com/videoembed/vi3254238233/
+images:
+- url: "https://m.media-amazon.com/images/M/MV5BMGQwZjI1NGMtMzNhNC00ZGU4LTg1MDgtZmNmMTgyMTRmYmRiXkEyXkFqcGc@._V1_.jpg"
+  caption: "Ryan Reynolds in Pokémon: Detective Pikachu (2019)"
+- url: "https://m.media-amazon.com/images/M/MV5BMWUxZWI4NjctNDAyNi00OTY4LWE5YWEtYjU0NTA5OWM0ODhhXkEyXkFqcGc@._V1_.jpg"
+  caption: "Ryan Reynolds, Kathryn Newton, and Justice Smith in Pokémon: Detective Pikachu (2019)"
+- url: "https://m.media-amazon.com/images/M/MV5BM2RmNmU3N2EtNTg0Zi00NzUwLTg5M2EtMzNkZDZlMjhiZDNmXkEyXkFqcGc@._V1_.jpg"
+  caption: "Ryan Reynolds, Kathryn Newton, and Justice Smith in Pokémon: Detective Pikachu (2019)"
+- url: "https://m.media-amazon.com/images/M/MV5BOTExMDVmMDAtMDJmZS00YTgyLWFiNWMtNTg3Y2YzYWViNDNkXkEyXkFqcGc@._V1_.jpg"
+  caption: "Ryan Reynolds in Pokémon: Detective Pikachu (2019)"
+- url: "https://m.media-amazon.com/images/M/MV5BNTliNDVjNDktNjJlYy00OGI1LTg3M2MtYjI5OTI5MGI2ZWQwXkEyXkFqcGc@._V1_.jpg"
+  caption: "Ryan Reynolds in Pokémon: Detective Pikachu (2019)"
+- url: "https://m.media-amazon.com/images/M/MV5BMGRlOWE0ZDAtZDI5MC00MTNjLWJiMjctZGMxMTZmYjRhYWQ0XkEyXkFqcGc@._V1_.jpg"
+  caption: "Ryan Reynolds and Justice Smith in Pokémon: Detective Pikachu (2019)"
+- url: "https://m.media-amazon.com/images/M/MV5BZWEyZDI1YTQtNThlYy00ZWM1LWE4MWMtMGE5MDIxYWQzOGY2XkEyXkFqcGc@._V1_.jpg"
+  caption: "Kathryn Newton in Pokémon: Detective Pikachu (2019)"
+- url: "https://m.media-amazon.com/images/M/MV5BNThjNmJkM2EtMjU1OS00YmEzLWE5N2EtNTRlY2FmYmEyN2EzXkEyXkFqcGc@._V1_.jpg"
+  caption: "Ken Watanabe in Pokémon: Detective Pikachu (2019)"
+- url: "https://m.media-amazon.com/images/M/MV5BYTVjZTc3NjctNzVjNy00NGFmLWEyNWUtMTg4MmRmZjNhMDZiXkEyXkFqcGc@._V1_.jpg"
+  caption: "Ryan Reynolds, Bill Nighy, and Justice Smith in Pokémon: Detective Pikachu (2019)"
+- url: "https://m.media-amazon.com/images/M/MV5BNTM1ZmMwMzctY2M5Yi00ZGU3LThkNzYtY2I1YmQzOGE2MmE3XkEyXkFqcGc@._V1_.jpg"
+  caption: "Bill Nighy in Pokémon: Detective Pikachu (2019)"
+---
+
+### <a href='https://www.imdb.com/title/tt5884052/'>Pokémon: Detective Pikachu (2019)</a>
 
 #### Starring
 
 - Ryan Reynolds
-- Josh Brolin
-- Morena Baccarin
+- Justice Smith
+- Kathryn Newton
 
 ##### Directed by
 
-- David Leitch
+- Rob Letterman
 
-2018 🎬 R ⭐ 7.6 stars<br/>
-Play time: 1:59<br/>
-(Disney)
+Rated PG and 6.5 stars<br/>
+Play time: 1:44
 
 <!--
-Foul-mouthed mutant mercenary Wade Wilson (a.k.a. Deadpool) assembles a team of fellow mutant rogues to protect a young boy with abilities from the brutal, time-traveling cyborg Cable.
+In a world where people collect Pokémon to do battle, a boy comes across an intelligent talking Pikachu who seeks to be a detective.
 
-### Honest review of all 3 versions
+### A good adaptation!
 
-It&apos;s true that you can have too much of a good thing...please no more different editions!
-
-THEATRICAL CUT - was the best version of any of the &quot;cuts&quot; it was the most cleanly edited and it had the best soundtrack out of the three. It is clear after seeing all the versions of the film that they tested all of the jokes and the ones included were cherry picked, and the best were picked to be included in this one.
-
-SUPER DUPER CUT/EXTENDED - this was supposed to be an extended version of the film but it was actually a different cut...what I mean by that is that they changed the soundtrack and they cut out what I considered to be some of the funniest jokes from the theatrical cut and replaced them. They ALSO added some additional footage to the film after making those changes. This version of the film feels darker and less funny to me personally so I prefer the theatrical cut over it.
-
-ONCE UPON A DEADPOOL/PG13 - This is the edition that nobody asked for and is the most unnecessary. From an editing standpoint this version of film is very sloppy, and seems like one giant montage. They don&apos;t even start this version of the film out at the beginning it jumps right into the &quot;safe room scene&quot;. A lot of the footage included in this edition was already available on the home releases and online (apart from the short amount filmed with Fred Savage). The movie would end up edited on TV regardless of this edition existing or not. So in reality there was no need for this edition to exist apart from making more money.
+This movie is humorous and the visual effects are incredible. Even though some aspects of the movie leave us underwhelmed, it is still a step in the right direction.
 -->
 
 ---
-name: "Looper"
-url: https://www.imdb.com/title/tt1276104/
+name: "Dungeons & Dragons: Honor Among Thieves"
+url: https://www.imdb.com/title/tt2906216/
 layout: movie-stills
-cover: https://m.media-amazon.com/images/M/MV5BMTg5NTA3NTg4NF5BMl5BanBnXkFtZTcwNTA0NDYzOA@@._V1_.jpg
-trailer: https://www.imdb.com/videoembed/vi3368395801/
+cover: https://m.media-amazon.com/images/M/MV5BOGRjMjQ0ZDAtODc0OS00MGY1LTkxMTMtODhhNjY5NTM4N2IwXkEyXkFqcGc@._V1_.jpg
+trailer: https://www.imdb.com/videoembed/vi3660563481/
 images:
-- url: "https://m.media-amazon.com/images/M/MV5BMjA3Nzg4NTAwNl5BMl5BanBnXkFtZTcwODkxMjQ0OA@@._V1_.jpg"
-  caption: "Joseph Gordon-Levitt and Noah Segan in Looper (2012)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTc3MzUwNDIxMV5BMl5BanBnXkFtZTcwOTkxMjQ0OA@@._V1_.jpg"
-  caption: "Joseph Gordon-Levitt in Looper (2012)"
-- url: "https://m.media-amazon.com/images/M/MV5BMjAzNzIwNzY0Nl5BMl5BanBnXkFtZTcwMDAyMjQ0OA@@._V1_.jpg"
-  caption: "Bruce Willis and Qing Xu in Looper (2012)"
-- url: "https://m.media-amazon.com/images/M/MV5BNzY0NTMzMTMxNl5BMl5BanBnXkFtZTcwMTAyMjQ0OA@@._V1_.jpg"
-  caption: "Bruce Willis and Joseph Gordon-Levitt in Looper (2012)"
-- url: "https://m.media-amazon.com/images/M/MV5BMjk5Njk1NTkwOV5BMl5BanBnXkFtZTcwMjAyMjQ0OA@@._V1_.jpg"
-  caption: "Joseph Gordon-Levitt in Looper (2012)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTQwMzIzNjcyMl5BMl5BanBnXkFtZTcwMzAyMjQ0OA@@._V1_.jpg"
-  caption: "Joseph Gordon-Levitt in Looper (2012)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTQwNjc0NzgxOF5BMl5BanBnXkFtZTcwNDAyMjQ0OA@@._V1_.jpg"
-  caption: "Bruce Willis in Looper (2012)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTY5MTkxNzAyNV5BMl5BanBnXkFtZTcwNTAyMjQ0OA@@._V1_.jpg"
-  caption: "Joseph Gordon-Levitt in Looper (2012)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTk4NjAwMjc1OV5BMl5BanBnXkFtZTcwNDEyMjQ0OA@@._V1_.jpg"
-  caption: "Jeff Daniels in Looper (2012)"
-- url: "https://m.media-amazon.com/images/M/MV5BMjEzMDAwODUyOF5BMl5BanBnXkFtZTcwNTEyMjQ0OA@@._V1_.jpg"
-  caption: "Bruce Willis in Looper (2012)"
+- url: "https://m.media-amazon.com/images/M/MV5BNTRjOGRiY2MtZTdkMS00MzVhLThiZmEtN2Q5NzFhYWE2NTMxXkEyXkFqcGc@._V1_.jpg"
+  caption: "Hugh Grant and Chloe Coleman in Dungeons & Dragons: Honor Among Thieves (2023)"
+- url: "https://m.media-amazon.com/images/M/MV5BMDBlYjdhZTAtNWI3Ny00MzZlLWExY2QtZWI5NTFhNGJiYmFhXkEyXkFqcGc@._V1_.jpg"
+  caption: "Chris Pine and Regé-Jean Page in Dungeons & Dragons: Honor Among Thieves (2023)"
+- url: "https://m.media-amazon.com/images/M/MV5BM2U1YWUzZTgtMDNlNC00MTQ3LWE0OTYtOTU4ZWE4ZmUzNzQxXkEyXkFqcGc@._V1_.jpg"
+  caption: "Hugh Grant, Daisy Head, and Chloe Coleman in Dungeons & Dragons: Honor Among Thieves (2023)"
+- url: "https://m.media-amazon.com/images/M/MV5BOGY4MWY1YmItNDYzMi00MDE1LWFhMWUtOTZmNmIwMGEwNzkzXkEyXkFqcGc@._V1_.jpg"
+  caption: "Michelle Rodriguez, Chris Pine, Sophia Lillis, and Justice Smith in Dungeons & Dragons: Honor Among Thieves (2023)"
+- url: "https://m.media-amazon.com/images/M/MV5BY2NkM2YzMTUtMTkzMy00YjU0LTkwODYtOTU5NjI4MTkxOTk1XkEyXkFqcGc@._V1_.jpg"
+  caption: "Michelle Rodriguez, Chris Pine, Sophia Lillis, and Justice Smith in Dungeons & Dragons: Honor Among Thieves (2023)"
+- url: "https://m.media-amazon.com/images/M/MV5BYjhjOTA4ZjctODNmOS00MWI5LWJlOTUtNmEwMzY4ZjYxOGUxXkEyXkFqcGc@._V1_.jpg"
+  caption: "Michelle Rodriguez in Dungeons & Dragons: Honor Among Thieves (2023)"
+- url: "https://m.media-amazon.com/images/M/MV5BMjU3NDJhNGMtOTRiMC00OTVlLTliY2QtZTVkZmE3MGQ1M2QxXkEyXkFqcGc@._V1_.jpg"
+  caption: "Michelle Rodriguez and Chris Pine in Dungeons & Dragons: Honor Among Thieves (2023)"
+- url: "https://m.media-amazon.com/images/M/MV5BOGEyNjMxODMtYTNhZi00ZjNlLThlNzUtYjZhNWY5ZWU3ODM0XkEyXkFqcGc@._V1_.jpg"
+  caption: "Hugh Grant in Dungeons & Dragons: Honor Among Thieves (2023)"
+- url: "https://m.media-amazon.com/images/M/MV5BNmNjOGI0MWEtYTNiZi00M2UxLWI3ZTUtNDA3M2MxMjcxNGJhXkEyXkFqcGc@._V1_.jpg"
+  caption: "Regé-Jean Page in Dungeons & Dragons: Honor Among Thieves (2023)"
+- url: "https://m.media-amazon.com/images/M/MV5BYjgzYjE2MTYtNDM1My00ZDExLWJmNTQtOTI2OGM4ZWRiYTQ2XkEyXkFqcGc@._V1_.jpg"
+  caption: "Chris Pine and Chloe Coleman in Dungeons & Dragons: Honor Among Thieves (2023)"
 ---
 
-### <a href='https://www.imdb.com/title/tt1276104/'>Looper</a>
+### <a href='https://www.imdb.com/title/tt2906216/'>Dungeons & Dragons: Honor Among Thieves (2023)</a>
 
 #### Starring
 
-- Joseph Gordon-Levitt
-- Bruce Willis
-- Emily Blunt
+- Chris Pine
+- Michelle Rodriguez
+- Regé-Jean Page
 
 ##### Directed by
 
-- Rian Johnson
+- John Francis Daley
+-Jonathan Goldstein
 
-2012 🎬 R ⭐ 7.4<br/>
-Play time: 1:59<br/>
+Rated PG-13 and 7.2 stars<br/>
+Play time: 2:14
 
 <!--
-In 2074, when the mob wants to get rid of someone, the target is sent into the past, where a hired gun awaits - someone like Joe - who one day learns the mob wants to &apos;close the loop&apos; by sending back Joe&apos;s future self for assassin...
+A charming thief and a band of unlikely adventurers embark on an epic quest to retrieve a lost relic, but things go dangerously awry when they run afoul of the wrong people.
 
-### This time travel crap; just fries your brain like an egg&quot;
+### Excellent D&amp;D Adaptation
 
-Time travel films open up all manner of questions because of the paradoxes every action and reaction produce. If X occurred, surely Y would happen, which means X wouldn&apos;t happen after all And so it is with Looper.
+Saw the sneak preview today with my wife. I&apos;m a 43-year veteran player and DM, and she&apos;s never played. She laughed through the whole thing and was riveted by the action sequences, indicating that this is an excellent intro to the world of D&amp;D for the inexperienced. I was enchanted by what they got right: the iconic monsters, the banter, the feeling of an organic adventuring party coming together combining their strengths.
 
-Alas, to avoid dishing out hugely unpopular plot spoilers I need to skirt around the concerns, so you&apos;ll just have to come round with cake and we can discuss it in private. But there are some pretty substantial issues with Looper that cause questions to be asked and lead to more than a couple of possible explanations as to what exactly is going on. Don&apos;t see it alone; you&apos;ll need a friend around to discuss it on the journey home.
+Best of all, having lived in Neverwinter since 6/7/13 and the MMO&apos;s open beta, I got to see the Jewel of the Sword Coast North in all its glory.
 
-Equally, don&apos;t be put off. You don&apos;t need to be Einstein to enjoy Looper, as some of the audience proved
-
-In 2072, time travel is both possible and illegal and murder is more easily solved because corpses are harder to lose. However mobs and Mafiosi types are prevalent and have ingeniously devised a solution: tie your victim up and send him back in time to a location where a looper will be waiting to blow his/her brains out. However, when a looper&apos;s contract is up, they find themselves blowing the brains out of their older self. Except when looper Joe (Joseph Gordon-Levitt) stares down the barrel at a version of himself that is thirty years older, Old Joe (Bruce Willis) outsmarts him and so begins a cat and mouse chase where there are multiples of each species and most of them aren&apos;t called Joe.
-
-Confused? Good. Don&apos;t think any more or you&apos;ll confound yourself with your wondering and wandering along all the possible flows and tributaries that lead from them. Like, Is he actually... Dammit.
-
-Along with the quirks, possibilities and matters left to interpretation, there are one or two clear boo-boos that cut against the rules writer/director Rian Johnson (Brick, The Brothers Bloom) has set himself. I&apos;m sure you can work out from the subject matter that there are occasional murders so I&apos;m giving nothing away by stating that a particular murder in 2027 cuts against the rules. It&apos;s not a major problem in terms of enjoyment but it does cast a shadow over everything if minor errors are not avoided.
-
-There&apos;s only one way to watch Looper: suspend all disbelief, put your logic in stasis and get on with enjoying the romp. With that frame of mind employed, it&apos;s a superb film. No, it&apos;s not as intelligent a film as Inception, but it kicks the ass of Wanted and Gordon-Levitt is potentially a bigger star in the making than either Leonardo DiCaprio or James McAvoy.
-
-I&apos;m not sure that I buy Gordon-Levitt as a young Willis but the transition is simple and effectively executed and it needn&apos;t stand in the way of a couple of hours of great entertainment. He&apos;s matured as an actor and, though he&apos;s been stamping around Hollywood for a good couple of decades, it&apos;s the last five years or so that have really seen him ascend the ranks and there&apos;s no sign of his climb slowing with both Spielberg&apos;s Lincoln and Don Jon&apos;s Addiction (which he also wrote and directed) in the can and Premium Rush earning plaudits on both sides of the Atlantic.
-
-As for Willis, it&apos;s good to see him earning his fee again in a film worthy of his presence rather than phoning it in for a fat wad in the truly awful The Expendables 2. Emily Blunt (Sara) and Jeff Daniels ably provide support, the former, sadly, barely stretched and the latter, as Abe, the loopers&apos; boss, clearly enjoying himself. Equally, Paul Dano gives a wonderful, trademark sniveling wretch performance that is all too brief. But Looper belongs to Gordon-Levitt and One Tree Hill&apos;s Pierce Gagnon as the child, Cid, whose middle name is probably Damian. Unnerving is an understatement!
-
-There is a very strong argument that the best person to direct a film is the writer because s/he knows it better than anyone. Clearly that wasn&apos;t the case with Maximum Overdrive (Stephen King being the fine writer who should never be allowed either in front of or behind a camera again) but with Looper it&apos;s a very strong case in point.
-
-Johnson, though he bends his rules, has created a multi-layered, rapidly paced trip that is littered with bodies and to-die-for quips, to wit, &quot;I cleaned you up. And put a gun in your hand.&quot; He juggles the time zones effortlessly and maintains the excitement while allowing sufficient moments for us to pause, cogitate and catch up before whipping us to the next sprint, jump or shoot-out. Though he has nothing (publicly) on the slate, there&apos;ll be plenty more from him in the next few years.
-
-As is increasingly the case, my biggest complaint with last night&apos;s viewing has nothing to do with the film itself but with the screening, namely the blown speakers all along one side of the auditorium (big thumbs down to Cineworld) and the moron in front who played with his phone and gave muted shrieks of excitement every time there was a shot or splatter of blood, even taking the time to relive it with his friend. Who are these people? Why are they allowed to breathe? When will time travel come to my aid? Ah, but these are niggles and hopefully you won&apos;t be subjected to such when you watch Looper. And do see it. Maybe you&apos;ll absolutely hate the confusion it causes you, but if you don&apos;t mind giving a film some real thought and you enjoyed the possibilities of Inception, then Looper is for you.
-
-Just don&apos;t think too hard. As Abe laments, &quot;This time travel crap; just fries your brain like an egg&quot;
-
-For more reviews subscribe to www.thesquiss.co.uk
-
-Like the Facebook page: http://on.fb.me/RpitOG
+I&apos;ll be bringing my 4H D&amp;D club to see it as soon as possible, and we&apos;ll definitely be seeing it again on our own.
 -->
 
 ---
-name: "Doctor Strange"
-url: https://www.imdb.com/title/tt1211837/
+name: "The Super Mario Bros. Movie"
+url: https://www.imdb.com/title/tt6718170/
 layout: movie-stills
-cover: https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_.jpg
-trailer: https://www.imdb.com/videoembed/vi1822209561/
+cover: https://m.media-amazon.com/images/M/MV5BOGZlN2EzOTYtMzUzOS00NTM3LTg0MTQtZDVjZGM4YmJlNWNhXkEyXkFqcGc@._V1_.jpg
+trailer: https://www.imdb.com/videoembed/vi1463075865/
 images:
-- url: "https://m.media-amazon.com/images/M/MV5BMjI1NjU4Mzk2NF5BMl5BanBnXkFtZTgwMTQ5MDAzMDI@._V1_.jpg"
-  caption: "Chiwetel Ejiofor and Benedict Cumberbatch in Doctor Strange (2016)"
-- url: "https://m.media-amazon.com/images/M/MV5BMjI5NTI0OTY1Nl5BMl5BanBnXkFtZTgwMjQ5MDAzMDI@._V1_.jpg"
-  caption: "Tilda Swinton and Benedict Cumberbatch in Doctor Strange (2016)"
-- url: "https://m.media-amazon.com/images/M/MV5BMjA3NjMwMjg1M15BMl5BanBnXkFtZTgwMzQ5MDAzMDI@._V1_.jpg"
-  caption: "Tilda Swinton and Benedict Cumberbatch in Doctor Strange (2016)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTc4OTcxNDM2NF5BMl5BanBnXkFtZTgwNDQ5MDAzMDI@._V1_.jpg"
-  caption: "Benedict Cumberbatch in Doctor Strange (2016)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTk2MTg1OTcyNV5BMl5BanBnXkFtZTgwNTQ5MDAzMDI@._V1_.jpg"
-  caption: "Benedict Cumberbatch in Doctor Strange (2016)"
-- url: "https://m.media-amazon.com/images/M/MV5BMjI0NTYyMzg4OV5BMl5BanBnXkFtZTgwNjQ5MDAzMDI@._V1_.jpg"
-  caption: "Benedict Cumberbatch in Doctor Strange (2016)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTc1OTgyNTMwMF5BMl5BanBnXkFtZTgwNzQ5MDAzMDI@._V1_.jpg"
-  caption: "Benedict Cumberbatch in Doctor Strange (2016)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTk3NDE4Njg0OF5BMl5BanBnXkFtZTgwODQ5MDAzMDI@._V1_.jpg"
-  caption: "Chiwetel Ejiofor and Benedict Cumberbatch in Doctor Strange (2016)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTU1MzkzOTEyN15BMl5BanBnXkFtZTgwMDU5MDAzMDI@._V1_.jpg"
-  caption: "Benedict Cumberbatch in Doctor Strange (2016)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTYxOTg5OTY3OF5BMl5BanBnXkFtZTgwNjU5MDAzMDI@._V1_.jpg"
-  caption: "Doctor Strange (2016)"
+- url: "https://m.media-amazon.com/images/M/MV5BYjE2YTRhODctMjRkNy00M2QwLTllNWQtYWVlZThkMjQ0MTM0XkEyXkFqcGc@._V1_.jpg"
+  caption: "Anya Taylor-Joy at an event for The Super Mario Bros. Movie (2023)"
+- url: "https://m.media-amazon.com/images/M/MV5BODcxYzgxOTYtODY1Mi00NzljLWIzN2QtMzcyYjkzOTdkOWJkXkEyXkFqcGc@._V1_.jpg"
+  caption: "Anya Taylor-Joy at an event for The Super Mario Bros. Movie (2023)"
+- url: "https://m.media-amazon.com/images/M/MV5BNzA1Yzg5YjEtNjhiMi00YjQ5LWJiOTMtOGZiNTg0NWM2YzhjXkEyXkFqcGc@._V1_.jpg"
+  caption: "Anya Taylor-Joy at an event for The Super Mario Bros. Movie (2023)"
+- url: "https://m.media-amazon.com/images/M/MV5BZTBjNmYzZWUtZTZjZS00M2NjLThjNzQtNjY5YmM4Y2M5ZGY1XkEyXkFqcGc@._V1_.jpg"
+  caption: "Anya Taylor-Joy at an event for The Super Mario Bros. Movie (2023)"
+- url: "https://m.media-amazon.com/images/M/MV5BNTY2MDE3YTgtNzgzNi00NDg1LTgxMTItZmE3Yjk1ZGMwYThiXkEyXkFqcGc@._V1_.jpg"
+  caption: "Chris Pratt at an event for The Super Mario Bros. Movie (2023)"
+- url: "https://m.media-amazon.com/images/M/MV5BZjZmMGNkMjYtNDBkNy00MjIwLTg0YmQtOTgyZWFhMWZiOWI3XkEyXkFqcGc@._V1_.jpg"
+  caption: "Jack Black at an event for The Super Mario Bros. Movie (2023)"
+- url: "https://m.media-amazon.com/images/M/MV5BNDYxMDBjZjYtZDM3ZC00YTEwLWE4MDYtNWMwZjY1MzQ4ZGZlXkEyXkFqcGc@._V1_.jpg"
+  caption: "Chris Pratt and Katherine Schwarzenegger at an event for The Super Mario Bros. Movie (2023)"
+- url: "https://m.media-amazon.com/images/M/MV5BM2FlZjQ0YzMtYjNmNy00NTE0LWFhOGEtYjc3OTQ1NzA2MGRhXkEyXkFqcGc@._V1_.jpg"
+  caption: "Anya Taylor-Joy at an event for The Super Mario Bros. Movie (2023)"
+- url: "https://m.media-amazon.com/images/M/MV5BM2Y5ZWYzYzMtYjlmNS00YjNkLTgzMTAtODczZDQ5ZmYwZGQ5XkEyXkFqcGc@._V1_.jpg"
+  caption: "Jack Black and Seth Rogen at an event for The Super Mario Bros. Movie (2023)"
+- url: "https://m.media-amazon.com/images/M/MV5BZDA0ODQwMjUtN2QwOC00YWQ3LTg5ZjAtOTQzODJlNjQ1ZTZkXkEyXkFqcGc@._V1_.jpg"
+  caption: "Jack Black and Seth Rogen at an event for The Super Mario Bros. Movie (2023)"
 ---
 
-### <a href='https://www.imdb.com/title/tt1211837/'>Doctor Strange</a>
+### <a href='https://www.imdb.com/title/tt6718170/'>The Super Mario Bros. Movie (2023)</a>
 
 #### Starring
 
-- Benedict Cumberbatch
-- Chiwetel Ejiofor
-- Rachel McAdams
+- Chris Pratt
+- Anya Taylor-Joy
+- Charlie Day
 
 ##### Directed by
 
-- Scott Derrickson
+- Aaron Horvath
+-Michael Jelenic
+-Pierre Leduc
 
-2016 🎬 PG-13 ⭐ 7.5<br/>
-Play time: 1:55<br/>
-(Disney, TBS, TNT)
-
-<!--
-While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts.
-
-### Wonderful and Amazing Escapist Entertainment
-
-Way back when I first heard that Doctor Strange was being brought to the screen I was a bit worried. How could they translate the complexity of character and his true coolness but stay away from the cheeseball stuff? Dress a guy up like the books and remain true to the seriousness of the character? Well, they managed to not only pull it off but deliver one of the best hero origin films ever made.
-
-The director knew that you had to establish and truly care about the character. Making it grounded but still trippy really helps give it a flavor unlike any other comic adaptation. The Harry Potter meets Iron Man meets Ant-Man flavor was there yet it all feels unique. The MCU magic is there literally. Everything established in the Captain America films and both Avengers pays dividends in a way here. The universe has been established wonderfully and this film does the best job to date playing in that universe. Everything and every scene packs some sort of punch and resonates with true style and heart. They really let the action flow but also allow for key development of the overall story and over concept. This also allows them to probe deeper into the character&apos;s personalities. ALL the characters even the ones with smaller roles get to shine. This heightens the tension, so often missing from lesser comic-book movies, and adds real weight to the action sequences which are thrilling and often mesmerizing. Add more than a dash of thriller aspects and a few new characters that steal every scene that they appear in.
-
-I honestly can&apos;t think of one way to improve this film. The result is a movie that&apos;s just flat out exceptional and that honestly delivers the best visuals I&apos;ve ever seen in a movie.
--->
-
----
-name: "Safety Not Guaranteed"
-url: https://www.imdb.com/title/tt1862079/
-layout: movie-stills
-cover: https://m.media-amazon.com/images/M/MV5BZDAzYTlhZjktNmFkNi00YzZjLWI4NmMtYWI1MWJiYzYwNTlkXkEyXkFqcGc@._V1_.jpg
-trailer: https://www.imdb.com/videoembed/vi2693636121/
-images:
-- url: "https://m.media-amazon.com/images/M/MV5BMTY5NTA4OTEwNl5BMl5BanBnXkFtZTcwNDkzNzg3Nw@@._V1_.jpg"
-  caption: "Mark Duplass in Safety Not Guaranteed (2012)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTYwMjYwNjQxOV5BMl5BanBnXkFtZTcwNjkzNzg3Nw@@._V1_.jpg"
-  caption: "Aubrey Plaza in Safety Not Guaranteed (2012)"
-- url: "https://m.media-amazon.com/images/M/MV5BMjE4OTc0NTc0N15BMl5BanBnXkFtZTcwNzkzNzg3Nw@@._V1_.jpg"
-  caption: "Jake Johnson, Aubrey Plaza, and Karan Soni in Safety Not Guaranteed (2012)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTQ5NzA2NjM5OV5BMl5BanBnXkFtZTcwODIwNTMyNw@@._V1_.jpg"
-  caption: "Jake Johnson, Aubrey Plaza, and Karan Soni in Safety Not Guaranteed (2012)"
-- url: "https://m.media-amazon.com/images/M/MV5BMjEyMjg3MDI2OV5BMl5BanBnXkFtZTcwOTIwNTMyNw@@._V1_.jpg"
-  caption: "Mark Duplass and Aubrey Plaza in Safety Not Guaranteed (2012)"
-- url: "https://m.media-amazon.com/images/M/MV5BMjI1ODc3MzYyOV5BMl5BanBnXkFtZTcwOTMwNTMyNw@@._V1_.jpg"
-  caption: "Aubrey Plaza in Safety Not Guaranteed (2012)"
-- url: "https://m.media-amazon.com/images/M/MV5BODkwMzIwOTA2NF5BMl5BanBnXkFtZTgwOTk3Nzg5NDM@._V1_.jpg"
-  caption: "Aubrey Plaza at an event for Safety Not Guaranteed (2012)"
-- url: "https://m.media-amazon.com/images/M/MV5BMmI4MGZkNmQtOGNiNS00MTg2LThlYzQtYWRiMmEwZGVmYmFmXkEyXkFqcGc@._V1_.jpg"
-  caption: "Mark Duplass and Aubrey Plaza in Safety Not Guaranteed (2012)"
-- url: "https://m.media-amazon.com/images/M/MV5BMjIzOTgyNjEzMV5BMl5BanBnXkFtZTcwNzY1ODY2Nw@@._V1_.jpg"
-  caption: "Safety Not Guaranteed (2012)"
-- url: "https://m.media-amazon.com/images/M/MV5BODUxOTc0Mjg0NF5BMl5BanBnXkFtZTcwNjc5MjE2Nw@@._V1_.jpg"
-  caption: "Safety Not Guaranteed (2012)"
----
-
-### <a href='https://www.imdb.com/title/tt1862079/'>Safety Not Guaranteed</a>
-
-#### Starring
-
-- Aubrey Plaza
-- Mark Duplass
-- Jake Johnson
-
-##### Directed by
-
-- Colin Trevorrow
-
-2012 🎬 R ⭐ 6.9<br/>
-Play time: 1:26<br/>
-(Pluto)
+Rated PG and 7 stars<br/>
+Play time: 1:32
 
 <!--
-Three magazine employees head out on an assignment to interview a guy who placed a classified advertisement seeking a companion for time travel.
+Brooklyn plumbers Mario and Luigi are warped to the magical Mushroom Kingdom, and Mario must team up with Princess Peach, Toad, and Donkey Kong to save Luigi from the evil Bowser.
 
-### Safety Not Guaranteed...3 out of 4 Skittles
+### The Message Of Love Is Sent Directly To The Fanbase, Not To The General Audience.
 
-LOGLINE: Mark Duplass (Puffy Chair &amp; Humpday) plays Kenneth, the local small town weirdo who bags groceries and places a classified ad seeking a companion for time travel. Aubrey Plaza (Parks and Recreation &amp; Funny People) plays Darius, an intern sent in on assignment with her co-workers (Jake M. Johnson &amp; Karan Soni) to secretly pose as potential time travel candidates and get the scoop for the entertainment magazine.
+This is a movie that feels like a love letter to all the Nintendo fans out there, even if they don&apos;t necessarily play Mario anymore. The film delivers a fun and enjoyable experience for viewers by faithfully adapting every aspect of the game into the movie, including the Mario Kart and Donkey Kong franchises. The movie is packed with non-stop action and fast-paced storytelling, leaving little room for some of the more significant elements that fans might have wanted to see. It may not be able to fulfill every fan&apos;s wishes, but it&apos;s understandable and sets up for a sequel, as there is a post-credits scene.
 
-Obviously the guy is an insane wack-jobor is he? As Darius gets in closer with Kenneth and slowly finds out more and more about him, she isn&apos;t so sure anymore. Can this guy actually do what he claims, or is he so far off his rocker that he has lost all sight of reality? Writer Derek Connolly weaves in and out the possibilities of what is true and keeps the audience guessing until the film&apos;s final second payoff.
-
-Actors Duplass and Plaza are so great radiating weirdness off of each other. The two form an unusual friendship that rings true in every detail. Jake M. Johnson (New Girl) and Karan Soni add several laughs to the bizarreyet hilarious story. The film had many chances to lose sight of believability, but finds a way to stay on course.
-
-The film&apos;s ending left me torn. No matter if you are the kind of person rooting for Kenneth to be vindicated, or believe he is crazy all alongthe story keeps you hooked until the credits roll. Safety Not Guaranteed was a breakout hit from the Sundance Film Festival, and contains the spirit of what independent films strive to be. It&apos;s authentic, creative, unusual, and a breath of fresh air. It&apos;s fun to see what independent filmmakers come up with when they aren&apos;t restrained by the annoyance of making every viewer happy. If you are up for something differentdo yourself a favor and see this one.
-
-For more quick reviews check out www.FilmStallion.com
+But for general audiences who are not familiar with Mario enough, this might be a movie that is difficult to understand. There may be questions like why does it have to be like this? Why do it this way? Why is the world so strange? This is because the story hardly explains in detail for us to know how the world is. Even though the story is simple and has nothing much. But if you don&apos;t think too much, it&apos;s an easy and enjoyable movie to watch, with the lovable characters in the style of the works from the studio that made Despicable Me.
 -->
 
----
-name: "Planet of the Apes"
-url: https://www.imdb.com/title/tt0063442/
-layout: movie-stills
-cover: https://m.media-amazon.com/images/M/MV5BMjI2NzRkNmQtNTIwZi00ZWMxLThlOGQtMjQ1NjI3MzI5YmIzXkEyXkFqcGc@._V1_.jpg
-trailer: https://www.imdb.com/videoembed/vi3430940953/
-images:
-- url: "https://m.media-amazon.com/images/M/MV5BMjAyNTAwMDU5MV5BMl5BanBnXkFtZTcwMjU0NDkwNA@@._V1_.jpg"
-  caption: "Charlton Heston, Kim Hunter, and Buck Kartalian in Planet of the Apes (1968)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTk3MDg2Mjg3Ml5BMl5BanBnXkFtZTYwOTc0NDQ2._V1_.jpg"
-  caption: "&quot;Planet Of The Apes&quot; Maurice Evans, Charlton Heston"
-- url: "https://m.media-amazon.com/images/M/MV5BMjIzMDQwMTI0NF5BMl5BanBnXkFtZTgwNjM2MjQxNTM@._V1_.jpg"
-  caption: "Charlton Heston in Planet of the Apes (1968)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTkyNTQ3NzM5OV5BMl5BanBnXkFtZTgwMTQzMjQxNTM@._V1_.jpg"
-  caption: "Charlton Heston and Kim Hunter in Planet of the Apes (1968)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTcwNjQyMjQ1MF5BMl5BanBnXkFtZTgwODA5MTMxNTM@._V1_.jpg"
-  caption: "Charlton Heston and Linda Harrison in Planet of the Apes (1968)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTYxMTkxODM4Nl5BMl5BanBnXkFtZTcwMzU0NDkwNA@@._V1_.jpg"
-  caption: "Charlton Heston in Planet of the Apes (1968)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTQ1NTg4NTAxOV5BMl5BanBnXkFtZTcwOTQ0NDkwNA@@._V1_.jpg"
-  caption: "Charlton Heston, Kim Hunter, and Roddy McDowall in Planet of the Apes (1968)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTUyODUxNzYyM15BMl5BanBnXkFtZTcwMDU0NDkwNA@@._V1_.jpg"
-  caption: "Kim Hunter, Roddy McDowall, and Lou Wagner in Planet of the Apes (1968)"
-- url: "https://m.media-amazon.com/images/M/MV5BMjAxODMxMDk5NF5BMl5BanBnXkFtZTcwMTU0NDkwNA@@._V1_.jpg"
-  caption: "Kim Hunter in Planet of the Apes (1968)"
-- url: "https://m.media-amazon.com/images/M/MV5BMjA5NzY0OTU5Nl5BMl5BanBnXkFtZTYwMjg0NDQ2._V1_.jpg"
-  caption: "&quot;Planet Of The Apes&quot; Kim Hunter, Linda Harrison"
----
-
-### <a href='https://www.imdb.com/title/tt0063442/'>Planet of the Apes (1968)</a>
-
-#### Starring
-
-- Charlton Heston
-- Roddy McDowall
-- Kim Hunter
-
-##### Directed by
-
-- Franklin J. Schaffner
-
-1968 🎬 G ⭐ 8<br/>
-Play time: 1:52<br/>
-(Tubi)
-
-<!--
-After being kept in hypersleep during a long expedition into deep space, an astronaut crew crash-lands in the 40th century on a planet where highly intelligent non-human ape species are dominant and humans are enslaved.
-
-### Not the &apos;60&apos;s &amp; &apos;70&apos;s cheesy film you may fear!
-
-No one I know under 40 had seen this film, though we all joked about it as being a stereotypical &quot;bad&quot; film based on rumors. the title, and clips seen here and there.  Finally one weekend when I was working until 2:00 a.m. I went home and there was a sequel on late night TV, during the 30 year Planet of the Apes marathon.  It made me curious about the original and I tracked it down.  I have to say it blew me away!
-
-The film is philosophical, creative, absorbing and scary.  Excellent commentary on religion and just about everything else. I strongly recommend to anyone who has not seen it.  So far I haven&apos;t even been able to convince my friends to see it because there seems to be such a strong prejudice against it and some sort of entrenched belief it must be bad; in fact it is one of the finest films I&apos;ve seen and I can see why it is a classic.
-
-If you enjoy films that make you think you simply can&apos;t dislike Planet of the Apes.
--->
-
-
----
-name: "Donnie Darko"
-url: https://www.imdb.com/title/tt0246578/
-layout: movie-stills
-cover: https://m.media-amazon.com/images/M/MV5BMWE3NTYzZmEtM2U5MS00MDZhLTk2ZTQtZTgzNjg0ZGQ5ZjM0XkEyXkFqcGc@._V1_.jpg
-trailer: https://www.imdb.com/videoembed/vi1835513369/
-images:
-- url: "https://m.media-amazon.com/images/M/MV5BMTQwMDU1MjY1N15BMl5BanBnXkFtZTcwOTc5Mjc4NA@@._V1_.jpg"
-  caption: "Jake Gyllenhaal in Donnie Darko (2001)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTY3OTg1OTA2MF5BMl5BanBnXkFtZTcwNjg5Mjc4NA@@._V1_.jpg"
-  caption: "Jake Gyllenhaal and Jena Malone in Donnie Darko (2001)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTM4MzA1MTEzM15BMl5BanBnXkFtZTcwNzg5Mjc4NA@@._V1_.jpg"
-  caption: "Jake Gyllenhaal in Donnie Darko (2001)"
-- url: "https://m.media-amazon.com/images/M/MV5BMjI1NTk5MzAxMl5BMl5BanBnXkFtZTcwODg5Mjc4NA@@._V1_.jpg"
-  caption: "Drew Barrymore and Beth Grant in Donnie Darko (2001)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTYyNzgwODMzMl5BMl5BanBnXkFtZTcwMjg5Mjc4NA@@._V1_.jpg"
-  caption: "Jake Gyllenhaal and Jena Malone in Donnie Darko (2001)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTc0NzMzMDQ3NF5BMl5BanBnXkFtZTcwMzg5Mjc4NA@@._V1_.jpg"
-  caption: "Drew Barrymore and Noah Wyle in Donnie Darko (2001)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTgzMjk5NzgwMF5BMl5BanBnXkFtZTcwNTg5Mjc4NA@@._V1_.jpg"
-  caption: "Drew Barrymore in Donnie Darko (2001)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTEyOTcyNDU3NjNeQTJeQWpwZ15BbWU3MDk2OTI3ODQ@._V1_.jpg"
-  caption: "Patience Cleveland in Donnie Darko (2001)"
-- url: "https://m.media-amazon.com/images/M/MV5BMTk5OTQxNDg1MF5BMl5BanBnXkFtZTcwMDc5Mjc4NA@@._V1_.jpg"
-  caption: "Jake Gyllenhaal in Donnie Darko (2001)"
-- url: "https://m.media-amazon.com/images/M/MV5BNDU4NTIzODE3M15BMl5BanBnXkFtZTcwMTc5Mjc4NA@@._V1_.jpg"
-  caption: "Donnie Darko (2001)"
----
-
-### <a href='https://www.imdb.com/title/tt0246578/'>Donnie Darko (2001)</a>
-
-#### Starring
-
-- Jake Gyllenhaal
-- Jena Malone
-- Mary McDonnell
-
-##### Directed by
-
-- Richard Kelly
-
-2001 🎬 R ⭐ 8<br/>
-Play time: 1:53<br/>
-(everywhere)
-
-<!--
-After narrowly escaping a bizarre accident, a troubled teenager is plagued by visions of a man in a large rabbit suit who manipulates him to commit a series of crimes.
-
-### Philosophy and quantum physics mashed into a cult classic
-
-I love everything about this film! It&apos;s been among my favorites for many years. The theories that could be well in depth for hours, the soundtrack, sweet camera shots, and the brilliant writing! I&apos;m proud of the fact that this is my 300th review on here. I&apos;d say this is my 4th favorite film ever after Fight Club, The Matrix, and True Romance. The floating wormholes is super cool to me and the soundtrack is so damn good!
-
-Thought provoking films are my favorite ever, the fact that you could float on talking about different aspects and possibilities is beyond fascinating to me! It&apos;s extremely impressive that Richard Kelly was 26 when he wrote the script and made such a profound experience!
--->
